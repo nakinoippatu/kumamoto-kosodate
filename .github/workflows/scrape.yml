@@ -24,7 +24,10 @@ jobs:
           python-version: "3.11"
 
       - name: 依存パッケージをインストール
-        run: pip install requests beautifulsoup4 lxml
+        run: pip install playwright beautifulsoup4 lxml
+
+      - name: Playwright ブラウザをインストール
+        run: playwright install chromium --with-deps
 
       - name: スクレイピング実行
         run: python scraper.py
