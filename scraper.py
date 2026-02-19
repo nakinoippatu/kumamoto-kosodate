@@ -66,10 +66,14 @@ def find_kidate(a_tag):
 
 def parse_html(html):
     soup = BeautifulSoup(html, "html.parser")
-    main = soup.select_one("#maincont") or soup.find("main") or soup
 
-    all_a = main.find_all("a", href=re.compile(r"page\d+\.html"))
+    # 全aタグを対象（要素を絞らない）
+    all_a = soup.find_all("a", href=re.compile(r"page\d+\.html"))
     print(f"  page*.html aタグ数: {len(all_a)}")
+
+    # デバッグ: 最初の5件のhrefを出力
+    for a in all_a[:5]:
+        print(f"    href='{a.get('href')}' text='{a.get_text(strip=True)[:30]}'")
 
     seen_urls = set()
     events = []
@@ -80,7 +84,7 @@ def parse_html(html):
         title = a.get_text(strip=True)
         if not title: continue
         date_raw = find_kidate(a)
-        if not date_raw: continue  # 期日なしはスキップ
+        if not date_raw: continue
         if url in seen_urls: continue
         seen_urls.add(url)
         events.append({
@@ -98,39 +102,51 @@ def parse_html(html):
     print(f"  取得: {len(events)} 件")
     return events
 
+def get_page_html(page, url):
+    print(f"  GET {url}")
+    page.goto(url, wait_until="networkidle", timeout=30000)
+
+    # #maincontが描画されるまで待つ（hiddenでも可）
+    # 代わりに「期日」テキストが出現するまで待つ
+    try:
+        page.wait_for_function(
+            "document.body.innerText.includes('期日')",
+            timeout=15000
+        )
+        print("  ✅ 期日テキスト確認")
+    except Exception:
+        print("  ⚠️ 期日テキスト待機タイムアウト（続行）")
+
+    # 追加で2秒待機（念のため）
+    page.wait_for_timeout(2000)
+
+    html = page.content()
+    print(f"  文字数: {len(html)}")
+
+    # デバッグ: bodyテキストの最初の500文字
+    body_text = page.evaluate("document.body.innerText")
+    print(f"  bodyテキスト冒頭: {body_text[:300]}")
+
+    return html
+
 def scrape():
     print("=== 熊本市 子育て支援イベント スクレイピング開始（Playwright）===")
     all_events = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.set_extra_http_headers({"Accept-Language": "ja,en;q=0.9"})
+        pw_page = browser.new_page()
+        pw_page.set_extra_http_headers({"Accept-Language": "ja,en;q=0.9"})
 
-        # 1ページ目
-        print(f"  GET {LIST_URL}")
-        page.goto(LIST_URL, wait_until="networkidle", timeout=30000)
-        # JS描画完了を待つ
-        page.wait_for_selector("#maincont", timeout=15000)
-        html = page.content()
-        print(f"  文字数: {len(html)}")
-
-        total_m = re.search(r"関する記事.*?全(\d+)件", html, re.DOTALL)
-        if total_m:
-            print(f"  サイト表示総件数: {total_m.group(1)} 件")
-
+        html = get_page_html(pw_page, LIST_URL)
         events = parse_html(html)
         all_events.extend(events)
 
-        # 2ページ目以降
         for page_num in range(2, 11):
             time.sleep(1)
             try:
                 url = f"{LIST_URL}&page={page_num}"
-                print(f"  GET {url}")
-                page.goto(url, wait_until="networkidle", timeout=30000)
-                page.wait_for_selector("#maincont", timeout=15000)
-                html = page.content()
+                html = get_page_html(pw_page, url)
                 events = parse_html(html)
                 if not events:
                     print(f"  {page_num}ページ目: 新規なし → 終了")
