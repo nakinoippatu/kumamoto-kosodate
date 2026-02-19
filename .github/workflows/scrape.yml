@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Python セットアップ
         uses: actions/setup-python@v5
@@ -31,8 +33,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add docs/events.json
-          git commit -m "chore: イベントデータ更新 $(date '+%Y-%m-%d %H:%M')" || echo "変更なし、スキップ"
-          git push || echo "プッシュ不要"
+          git commit -m "chore: イベントデータ更新 $(date '+%Y-%m-%d %H:%M')" || echo "変更なし"
+          git push
 
