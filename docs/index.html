@@ -620,16 +620,20 @@ let currentView = 'calendar';
 
 async function loadEvents() {
   try {
-    const resp = await fetch('events.json');
+    const url = 'events.json?v=' + Date.now();
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
     allEvents = data.events || [];
+    const updEl = document.getElementById('updated-at');
     if (data.updated_at) {
       const d = new Date(data.updated_at);
-      document.getElementById('updated-at').textContent =
-        `最終更新: ${d.getFullYear()}/${d.getMonth()+1}/${d.getDate()}`;
+      updEl.textContent = `最終更新: ${d.getFullYear()}/${d.getMonth()+1}/${d.getDate()} (${allEvents.length}件取得)`;
+    } else {
+      updEl.textContent = `取得件数: ${allEvents.length}件`;
     }
   } catch(e) {
-    console.error('events.json の読み込みに失敗:', e);
+    document.getElementById('updated-at').textContent = 'エラー: ' + e.message;
     allEvents = [];
   }
   applyFilters();
@@ -732,11 +736,3 @@ function renderCalendar(events) {
     eventDisplay: 'block',
     dayMaxEvents: 3,
   });
-  calendar.render();
-}
-
-function openModal(ev) {
-  const color = catColor(ev.category);
-  document.getElementById('modal-cat').textContent = ev.category;
-  document.getElementById('modal-cat').style.background = color;
-  document.getEle
