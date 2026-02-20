@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>熊本市 子育て支援 講習会カレンダー</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Kaisei+Decol:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/locales/ja.global.min.js"></script>
+<style>
+  :root {
+    --cream: #fdf8f0;
+    --warm-brown: #6b4c2a;
+    --accent-orange: #e07b39;
+    --accent-green: #5a9168;
+    --accent-pink: #d4607e;
+    --accent-blue: #4a7fab;
+    --accent-purple: #7b5ea7;
+    --light-orange: #fef0e4;
+    --text-dark: #2c1f0e;
+    --text-mid: #6b5742;
+    --border: #e8d5bf;
+    --shadow: rgba(107, 76, 42, 0.12);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: var(--cream);
+    color: var(--text-dark);
+    min-height: 100vh;
+  }
+
+  /* ── ヘッダー ── */
+  header {
+    background: var(--warm-brown);
+    padding: 18px 28px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 2px 12px var(--shadow);
+  }
+  header .logo {
+    font-family: 'Kaisei Decol', serif;
+    font-size: 1.45rem;
+    color: #fff;
+    line-height: 1.3;
+  }
+  header .logo span {
+    display: block;
+    font-size: 0.72rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.12em;
+    color: #f0d9b5;
+    margin-top: 2px;
+  }
+  header .tag {
+    margin-left: auto;
+    background: var(--accent-orange);
+    color: #fff;
+    font-size: 0.65rem;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+  }
+  .updated-badge {
+    font-size: 0.63rem;
+    color: #c4a87a;
+    margin-left: 8px;
+  }
+
+  /* ── メインレイアウト ── */
+  .main-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 28px 20px 60px;
+  }
+
+  /* ── ビュー切替 ── */
+  .view-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .view-tab {
+    padding: 8px 20px;
+    border-radius: 24px;
+    border: 2px solid var(--border);
+    background: #fff;
+    color: var(--text-mid);
+    font-size: 0.82rem;
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    transition: all 0.18s;
+  }
+  .view-tab.active {
+    background: var(--warm-brown);
+    border-color: var(--warm-brown);
+    color: #fff;
+  }
+  .view-tab:hover:not(.active) {
+    border-color: var(--accent-orange);
+    color: var(--accent-orange);
+  }
+
+  /* ── フィルター ── */
+  .filter-bar {
+    background: #fff;
+    border: 1.5px solid var(--border);
+    border-radius: 16px;
+    padding: 18px 22px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    box-shadow: 0 2px 8px var(--shadow);
+  }
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 160px;
+  }
+  .filter-label {
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: var(--text-mid);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .filter-select {
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 7px 12px;
+    font-size: 0.82rem;
+    color: var(--text-dark);
+    font-family: 'Noto Sans JP', sans-serif;
+    background: var(--cream);
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b5742' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 28px;
+  }
+  .filter-select:focus { outline: none; border-color: var(--accent-orange); }
+  .filter-reset {
+    margin-left: auto;
+    background: none;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 7px 14px;
+    color: var(--text-mid);
+    font-size: 0.78rem;
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+    transition: all 0.15s;
+    align-self: flex-end;
+  }
+  .filter-reset:hover { border-color: var(--accent-orange); color: var(--accent-orange); }
+
+  /* ── 件数バッジ ── */
+  .count-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    font-size: 0.82rem;
+    color: var(--text-mid);
+  }
+  .count-num {
+    font-weight: 700;
+    color: var(--accent-orange);
+    font-size: 1.2rem;
+  }
+
+  /* ── カレンダービュー ── */
+  #calendar-view { display: block; }
+  #list-view { display: none; }
+
+  .fc {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 2px 10px var(--shadow);
+    border: 1.5px solid var(--border);
+  }
+  .fc .fc-toolbar-title {
+    font-family: 'Kaisei Decol', serif;
+    font-size: 1.2rem;
+    color: var(--warm-brown);
+  }
+  .fc .fc-button-primary {
+    background: var(--warm-brown) !important;
+    border-color: var(--warm-brown) !important;
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-size: 0.8rem !important;
+  }
+  .fc .fc-button-primary:hover {
+    background: var(--accent-orange) !important;
+    border-color: var(--accent-orange) !important;
+  }
+  .fc-event {
+    border-radius: 5px !important;
+    border: none !important;
+    font-size: 0.75rem !important;
+    font-weight: 500 !important;
+    padding: 2px 5px !important;
+    cursor: pointer !important;
+  }
+  .fc-daygrid-day-number, .fc-col-header-cell-cushion {
+    color: var(--text-dark) !important;
+    font-weight: 500 !important;
+  }
+
+  /* ── リストビュー ── */
+  .event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 18px;
+  }
+  .event-card {
+    background: #fff;
+    border-radius: 16px;
+    border: 1.5px solid var(--border);
+    overflow: hidden;
+    box-shadow: 0 2px 8px var(--shadow);
+    transition: transform 0.18s, box-shadow 0.18s;
+    cursor: pointer;
+  }
+  .event-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px var(--shadow);
+  }
+  .card-accent {
+    height: 5px;
+  }
+  .card-body { padding: 18px 20px; }
+  .card-category {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .card-title {
+    font-weight: 700;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    color: var(--text-dark);
+  }
+  .card-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .card-meta-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 0.78rem;
+    color: var(--text-mid);
+  }
+  .card-meta-icon { flex-shrink: 0; margin-top: 1px; }
+  .card-age-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: var(--light-orange);
+    color: var(--accent-orange);
+    border-radius: 20px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    margin-top: 10px;
+  }
+  .card-footer {
+    padding: 12px 20px;
+    background: var(--cream);
+    border-top: 1.5px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-link {
+    font-size: 0.72rem;
+    color: var(--accent-orange);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+  .card-link:hover { text-decoration: underline; }
+  .card-apply {
+    font-size: 0.7rem;
+    color: var(--text-mid);
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* ── モーダル ── */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(44, 31, 14, 0.55);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: #fff;
+    border-radius: 20px;
+    max-width: 520px;
+    width: 100%;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+    overflow: hidden;
+    animation: modalIn 0.22s ease;
+  }
+  @keyframes modalIn {
+    from { opacity: 0; transform: translateY(20px) scale(0.97); }
+    to { opacity: 1; transform: none; }
+  }
+  .modal-header {
+    padding: 22px 24px 18px;
+    border-bottom: 1.5px solid var(--border);
+    position: relative;
+  }
+  .modal-cat {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 3px 10px;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .modal-title {
+    font-family: 'Kaisei Decol', serif;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    color: var(--text-dark);
+  }
+  .modal-close {
+    position: absolute;
+    top: 16px; right: 16px;
+    background: var(--cream);
+    border: none;
+    border-radius: 50%;
+    width: 32px; height: 32px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--text-mid);
+    transition: background 0.15s;
+  }
+  .modal-close:hover { background: var(--border); }
+  .modal-body { padding: 20px 24px; }
+  .modal-info-row {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85rem;
+    color: var(--text-mid);
+  }
+  .modal-info-row:last-child { border-bottom: none; }
+  .modal-info-icon { flex-shrink: 0; font-size: 1rem; margin-top: 1px; }
+  .modal-info-label { font-weight: 700; color: var(--text-dark); margin-bottom: 2px; font-size: 0.72rem; letter-spacing: 0.06em; }
+  .modal-preview {
+    margin-top: 14px;
+    background: var(--cream);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 0.8rem;
+    color: var(--text-mid);
+    line-height: 1.7;
+  }
+  .modal-footer {
+    padding: 16px 24px;
+    border-top: 1.5px solid var(--border);
+    display: flex;
+    gap: 10px;
+  }
+  .btn-primary {
+    flex: 1;
+    background: var(--accent-orange);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.15s;
+  }
+  .btn-primary:hover { background: #c56a2b; }
+  .btn-secondary {
+    padding: 11px 16px;
+    background: #fff;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-size: 0.82rem;
+    color: var(--text-mid);
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+    transition: all 0.15s;
+  }
+  .btn-secondary:hover { border-color: var(--accent-orange); color: var(--accent-orange); }
+
+  /* ── 空 ── */
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-mid);
+  }
+  .empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
+  .empty-state p { font-size: 0.9rem; }
+
+  /* ── カテゴリ色 ── */
+  .color-食育 { background: #5a9168; }
+  .color-健康 { background: #4a7fab; }
+  .color-発達 { background: #7b5ea7; }
+  .color-親子 { background: #d4607e; }
+  .color-父親 { background: #e07b39; }
+  .color-産前 { background: #c0854e; }
+  .color-ひとり親 { background: #6b8cba; }
+  .color-その他 { background: #8a8a8a; }
+
+  @media (max-width: 600px) {
+    header { padding: 14px 18px; }
+    header .logo { font-size: 1.1rem; }
+    .event-grid { grid-template-columns: 1fr; }
+    .filter-bar { padding: 14px 16px; }
+    .fc { padding: 12px 6px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="logo">
+      熊本市 子育て支援
+      <span>KUMAMOTO CHILDCARE SUPPORT EVENTS</span>
+    </div>
+  </div>
+  <span class="tag">🍊 講習会・講座カレンダー v3</span>
+</header>
+
+<div class="main-wrap">
+
+  <!-- ビュー切替 -->
+  <div class="view-tabs">
+    <button class="view-tab active" onclick="switchView('calendar')">📅 カレンダー</button>
+    <button class="view-tab" onclick="switchView('list')">📋 リスト</button>
+  </div>
+
+  <!-- フィルター -->
+  <div class="filter-bar">
+    <div class="filter-group">
+      <div class="filter-label">📂 カテゴリ</div>
+      <select class="filter-select" id="filter-category" onchange="applyFilters()">
+        <option value="">すべて</option>
+        <option>食育・栄養</option>
+        <option>健康・医療</option>
+        <option>発達・育児相談</option>
+        <option>親子ふれあい</option>
+        <option>父親・家族支援</option>
+        <option>産前・産後</option>
+        <option>ひとり親支援</option>
+        <option>その他</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <div class="filter-label">👶 対象年齢</div>
+      <select class="filter-select" id="filter-age" onchange="applyFilters()">
+        <option value="">すべて</option>
+        <option>妊娠中</option>
+        <option>0歳</option>
+        <option>1〜2歳</option>
+        <option>3〜5歳</option>
+        <option>小学生以上</option>
+        <option>0歳〜未就学</option>
+        <option>指定なし</option>
+      </select>
+    </div>
+    <button class="filter-reset" onclick="resetFilters()">✕ リセット</button>
+  </div>
+
+  <!-- 件数 -->
+  <div class="count-bar">
+    <span class="count-num" id="event-count">0</span>
+    <span>件のイベントが見つかりました</span>
+    <span class="updated-badge" id="updated-at"></span>
+  </div>
+
+  <!-- カレンダービュー -->
+  <div id="calendar-view">
+    <div id="fc-calendar"></div>
+  </div>
+
+  <!-- リストビュー -->
+  <div id="list-view">
+    <div class="event-grid" id="event-grid"></div>
+    <div class="empty-state" id="empty-state" style="display:none;">
+      <div class="icon">🔍</div>
+      <p>条件に一致するイベントがありません</p>
+    </div>
+  </div>
+
+</div>
+
+<!-- モーダル -->
+<div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <div class="modal-cat" id="modal-cat"></div>
+      <div class="modal-title" id="modal-title"></div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-info-row">
+        <span class="modal-info-icon">📅</span>
+        <div>
+          <div class="modal-info-label">日時</div>
+          <div id="modal-date"></div>
+        </div>
+      </div>
+      <div class="modal-info-row">
+        <span class="modal-info-icon">📍</span>
+        <div>
+          <div class="modal-info-label">場所</div>
+          <div id="modal-location"></div>
+        </div>
+      </div>
+      <div class="modal-info-row">
+        <span class="modal-info-icon">👶</span>
+        <div>
+          <div class="modal-info-label">対象年齢</div>
+          <div id="modal-age"></div>
+        </div>
+      </div>
+      <div class="modal-info-row">
+        <span class="modal-info-icon">📝</span>
+        <div>
+          <div class="modal-info-label">申込情報</div>
+          <div id="modal-apply"></div>
+        </div>
+      </div>
+      <div class="modal-preview" id="modal-preview"></div>
+    </div>
+    <div class="modal-footer">
+      <a class="btn-primary" id="modal-link" href="#" target="_blank" rel="noopener">詳細ページを見る →</a>
+      <button class="btn-secondary" onclick="closeModal()">閉じる</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* EVENTS_DATA_START */
+const INLINE_EVENTS = null;
+/* EVENTS_DATA_END */
+const CATEGORY_COLORS = {
+  "食育・栄養":   "#5a9168",
+  "健康・医療":   "#4a7fab",
+  "発達・育児相談": "#7b5ea7",
+  "親子ふれあい": "#d4607e",
+  "父親・家族支援": "#e07b39",
+  "産前・産後":   "#c0854e",
+  "ひとり親支援": "#6b8cba",
+  "生活支援":    "#b07d4a",
+  "その他":      "#8a8a8a",
+};
+
+function catColor(c) { return CATEGORY_COLORS[c] || "#8a8a8a"; }
+function catKey(c) { return (c||"その他").replace(/[・\s]/g,"_"); }
+
+function parseDate(raw) {
+  if (!raw) return null;
+  const m = raw.match(/(\d{4})[年\/\-](\d{1,2})[月\/\-](\d{1,2})/);
+  if (m) return m[1] + "-" + m[2].padStart(2,"0") + "-" + m[3].padStart(2,"0");
+  return null;
+}
+
+let allEvents = [];
+let calendar = null;
+let currentView = "calendar";
+
+function loadEvents() {
+  const updEl = document.getElementById("updated-at");
+  if (INLINE_EVENTS && INLINE_EVENTS.events) {
+    allEvents = INLINE_EVENTS.events;
+    if (updEl && INLINE_EVENTS.updated_at) {
+      const d = new Date(INLINE_EVENTS.updated_at);
+      updEl.textContent = (d.getMonth()+1) + "/" + d.getDate() + " 更新 " + allEvents.length + "件";
+    }
+  } else {
+    allEvents = [];
+    if (updEl) { updEl.textContent = "データなし"; updEl.style.color="red"; }
+  }
+  applyFilters();
+}
+
+function getFilteredEvents() {
+  const cat = (document.getElementById("filter-category")||{}).value || "";
+  const age = (document.getElementById("filter-age")||{}).value || "";
+  return allEvents.filter(ev => {
+    if (cat && ev.category !== cat) return false;
+    if (age && ev.target_age !== age) return false;
+    return true;
+  });
+}
+
+function applyFilters() {
+  const filtered = getFilteredEvents();
+  const countEl = document.getElementById("event-count");
+  if (countEl) countEl.textContent = filtered.length;
+  renderList(filtered);
+  renderCalendar(filtered);
+}
+
+function resetFilters() {
+  const c = document.getElementById("filter-category");
+  const a = document.getElementById("filter-age");
+  if (c) c.value = "";
+  if (a) a.value = "";
+  applyFilters();
+}
+
+function renderList(events) {
+  const grid = document.getElementById("event-grid");
+  const empty = document.getElementById("empty-state");
+  if (!grid) return;
+  if (events.length === 0) {
+    grid.innerHTML = "";
+    if (empty) empty.style.display = "block";
+    return;
+  }
+  if (empty) empty.style.display = "none";
+  grid.innerHTML = events.map(ev => {
+    const color = catColor(ev.category);
+    const key = catKey(ev.category);
+    const safeEv = JSON.stringify(ev).replace(/"/g, "&quot;");
+    return `<div class="event-card" onclick="window.open(this.dataset.url, '_blank')">` +
+      `<div class="card-accent" style="background:${color}"></div>` +
+      `<div class="card-body">` +
+      `<span class="card-category" style="background:${color}">${ev.category}</span>` +
+      `<div class="card-title">${ev.title}</div>` +
+      `<div class="card-meta">` +
+      `<div class="card-meta-row"><span class="card-meta-icon">📅</span><span>${ev.date_raw||"日程未定"}</span></div>` +
+      (ev.location ? `<div class="card-meta-row"><span class="card-meta-icon">📍</span><span>${ev.location}</span></div>` : "") +
+      `</div>` +
+      `<div class="card-age-badge">👶 ${ev.target_age}</div>` +
+      `</div>` +
+      `<div class="card-footer">` +
+      `<a class="card-link" href="${ev.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">詳細 →</a>` +
+      `</div>` +
+      `</div>`;
+  }).join("");
+  // data-ev属性にJSONを設定
+  grid.querySelectorAll(".event-card").forEach((card, i) => {
+    card.dataset.ev = JSON.stringify(events[i]);
+    card.dataset.url = events[i].url || '#';
+  });
+}
+
+function renderCalendar(events) {
+  const fcEvents = events.map(ev => {
+    const date = parseDate(ev.date_raw) || ev.date_iso;
+    if (!date) return null;
+    return { title: ev.title, start: date, backgroundColor: catColor(ev.category), borderColor: catColor(ev.category), extendedProps: ev };
+  }).filter(Boolean);
+
+  if (calendar) {
+    calendar.removeAllEvents();
+    calendar.addEventSource(fcEvents);
+    return;
+  }
+
+  const el = document.getElementById("fc-calendar");
+  if (!el) return;
+  calendar = new FullCalendar.Calendar(el, {
+    initialView: "dayGridMonth",
+    locale: "ja",
+    headerToolbar: { left: "prev,next today", center: "title", right: "dayGridMonth,listMonth" },
+    buttonText: { today: "今月", month: "月", list: "リスト" },
+    events: fcEvents,
+    eventClick: function(info) { window.open(info.event.extendedProps.url, '_blank'); },
+    height: "auto",
+  });
+  calendar.render();
+}
+
+function switchView(view) {
+  currentView = view;
+  document.getElementById("calendar-view").style.display = view === "calendar" ? "block" : "none";
+  document.getElementById("list-view").style.display = view === "list" ? "block" : "none";
+  document.querySelectorAll(".view-btn").forEach(b => b.classList.remove("active"));
+  const btn = document.getElementById("btn-" + view);
+  if (btn) btn.classList.add("active");
+  if (view === "calendar" && calendar) calendar.updateSize();
+}
+
+function openModal(ev) {
+  if (typeof ev === "string") ev = JSON.parse(ev);
+  document.getElementById("modal-title").textContent = ev.title || "";
+  document.getElementById("modal-date").textContent = ev.date_raw || "";
+  document.getElementById("modal-location").textContent = ev.location || "記載なし";
+  document.getElementById("modal-age").textContent = ev.target_age || "";
+  document.getElementById("modal-apply").textContent = ev.apply_info || "詳細ページをご確認ください";
+  const link = document.getElementById("modal-link");
+  if (link) link.href = ev.url || "#";
+  document.getElementById("event-modal").style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("event-modal").style.display = "none";
+}
+
+window.onload = loadEvents;
+</script>
+</body>
+</html>
