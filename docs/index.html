@@ -619,21 +619,19 @@ let calendar = null;
 let currentView = 'calendar';
 
 async function loadEvents() {
+  const updEl = document.getElementById('updated-at');
   try {
-    const url = 'events.json?v=' + Date.now();
-    const resp = await fetch(url);
+    updEl.textContent = '読み込み中...';
+    const resp = await fetch('events.json?v=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    const data = await resp.json();
+    const text = await resp.text();
+    const data = JSON.parse(text);
     allEvents = data.events || [];
-    const updEl = document.getElementById('updated-at');
-    if (data.updated_at) {
-      const d = new Date(data.updated_at);
-      updEl.textContent = `最終更新: ${d.getFullYear()}/${d.getMonth()+1}/${d.getDate()} (${allEvents.length}件取得)`;
-    } else {
-      updEl.textContent = `取得件数: ${allEvents.length}件`;
-    }
+    const d = new Date(data.updated_at);
+    updEl.textContent = (d.getMonth()+1) + '/' + d.getDate() + ' 更新 ' + allEvents.length + '件';
   } catch(e) {
-    document.getElementById('updated-at').textContent = 'エラー: ' + e.message;
+    updEl.textContent = 'エラー:' + e.message;
+    updEl.style.color = 'red';
     allEvents = [];
   }
   applyFilters();
@@ -736,3 +734,8 @@ function renderCalendar(events) {
     eventDisplay: 'block',
     dayMaxEvents: 3,
   });
+  calendar.render();
+}
+
+function openModal(ev) {
+  const color = catColor(
