@@ -584,62 +584,45 @@ const CATEGORY_COLORS = {
   "父親・家族支援": "#e07b39",
   "産前・産後":   "#c0854e",
   "ひとり親支援": "#6b8cba",
-  "その他":       "#8a8a8a",
+  "生活支援":    "#b07d4a",
+  "その他":      "#8a8a8a",
 };
 
-function catColor(cat) {
-  return CATEGORY_COLORS[cat] || "#8a8a8a";
-}
+function catColor(c) { return CATEGORY_COLORS[c] || "#8a8a8a"; }
+function catKey(c) { return (c||"その他").replace(/[・\s]/g,"_"); }
 
-function catKey(cat) {
-  const map = {
-    "食育・栄養":"食育", "健康・医療":"健康", "発達・育児相談":"発達",
-    "親子ふれあい":"親子", "父親・家族支援":"父親", "産前・産後":"産前",
-    "ひとり親支援":"ひとり親", "その他":"その他"
-  };
-  return map[cat] || "その他";
-}
-
-// 日付文字列をYYYY-MM-DDに変換
 function parseDate(raw) {
   if (!raw) return null;
-  // 令和→西暦
-  const reiwa = raw.match(/令和\s*(\d+)\s*年\s*(\d+)\s*月\s*(\d+)\s*日/);
-  if (reiwa) {
-    const year = 2018 + parseInt(reiwa[1]);
-    return `${year}-${String(reiwa[2]).padStart(2,'0')}-${String(reiwa[3]).padStart(2,'0')}`;
-  }
-  const iso = raw.match(/(\d{4})[年/\-](\d{1,2})[月/\-](\d{1,2})/);
-  if (iso) return `${iso[1]}-${String(iso[2]).padStart(2,'0')}-${String(iso[3]).padStart(2,'0')}`;
+  const m = raw.match(/(\d{4})[年\/\-](\d{1,2})[月\/\-](\d{1,2})/);
+  if (m) return m[1] + "-" + m[2].padStart(2,"0") + "-" + m[3].padStart(2,"0");
   return null;
 }
 
 let allEvents = [];
 let calendar = null;
-let currentView = 'calendar';
+let currentView = "calendar";
 
 async function loadEvents() {
-  const updEl = document.getElementById('updated-at');
+  const updEl = document.getElementById("updated-at");
+  if (updEl) updEl.textContent = "読み込み中...";
   try {
-    updEl.textContent = '読み込み中...';
-    const resp = await fetch('events.json?v=' + Date.now());
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-    const text = await resp.text();
-    const data = JSON.parse(text);
-    allEvents = data.events || [];
-    const d = new Date(data.updated_at);
-    updEl.textContent = (d.getMonth()+1) + '/' + d.getDate() + ' 更新 ' + allEvents.length + '件';
+    const resp = await fetch("events.json?t=" + Date.now());
+    const data = await resp.json();
+    allEvents = Array.isArray(data.events) ? data.events : [];
+    if (updEl) {
+      const d = new Date(data.updated_at);
+      updEl.textContent = (d.getMonth()+1) + "/" + d.getDate() + " 更新 " + allEvents.length + "件";
+    }
   } catch(e) {
-    updEl.textContent = 'エラー:' + e.message;
-    updEl.style.color = 'red';
+    if (updEl) { updEl.textContent = "取得エラー: " + e.message; updEl.style.color="red"; }
     allEvents = [];
   }
   applyFilters();
 }
 
 function getFilteredEvents() {
-  const cat = document.getElementById('filter-category').value;
-  const age = document.getElementById('filter-age').value;
+  const cat = (document.getElementById("filter-category")||{}).value || "";
+  const age = (document.getElementById("filter-age")||{}).value || "";
   return allEvents.filter(ev => {
     if (cat && ev.category !== cat) return false;
     if (age && ev.target_age !== age) return false;
@@ -649,63 +632,61 @@ function getFilteredEvents() {
 
 function applyFilters() {
   const filtered = getFilteredEvents();
-  document.getElementById('event-count').textContent = filtered.length;
+  const countEl = document.getElementById("event-count");
+  if (countEl) countEl.textContent = filtered.length;
   renderList(filtered);
   renderCalendar(filtered);
 }
 
 function resetFilters() {
-  document.getElementById('filter-category').value = '';
-  document.getElementById('filter-age').value = '';
+  const c = document.getElementById("filter-category");
+  const a = document.getElementById("filter-age");
+  if (c) c.value = "";
+  if (a) a.value = "";
   applyFilters();
 }
 
 function renderList(events) {
-  const grid = document.getElementById('event-grid');
-  const empty = document.getElementById('empty-state');
+  const grid = document.getElementById("event-grid");
+  const empty = document.getElementById("empty-state");
+  if (!grid) return;
   if (events.length === 0) {
-    grid.innerHTML = '';
-    empty.style.display = 'block';
+    grid.innerHTML = "";
+    if (empty) empty.style.display = "block";
     return;
   }
-  empty.style.display = 'none';
+  if (empty) empty.style.display = "none";
   grid.innerHTML = events.map(ev => {
     const color = catColor(ev.category);
     const key = catKey(ev.category);
-    return `
-    <div class="event-card" onclick="openModal(${JSON.stringify(ev).replace(/"/g,'&quot;')})">
-      <div class="card-accent" style="background:${color}"></div>
-      <div class="card-body">
-        <span class="card-category color-${key}" style="background:${color}">${ev.category}</span>
-        <div class="card-title">${ev.title}</div>
-        <div class="card-meta">
-          <div class="card-meta-row">
-            <span class="card-meta-icon">📅</span>
-            <span>${ev.date_raw || '日程未定'}${ev.time_raw ? '　' + ev.time_raw : ''}</span>
-          </div>
-          ${ev.location ? `<div class="card-meta-row"><span class="card-meta-icon">📍</span><span>${ev.location}</span></div>` : ''}
-        </div>
-        <div class="card-age-badge">👶 ${ev.target_age}</div>
-      </div>
-      <div class="card-footer">
-        <span class="card-apply">${ev.apply_info || '申込情報は詳細ページへ'}</span>
-        <a class="card-link" href="${ev.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">詳細 →</a>
-      </div>
-    </div>`;
-  }).join('');
+    const safeEv = JSON.stringify(ev).replace(/"/g, "&quot;");
+    return `<div class="event-card" onclick="openModal(JSON.parse(this.dataset.ev))">` +
+      `<div class="card-accent" style="background:${color}"></div>` +
+      `<div class="card-body">` +
+      `<span class="card-category" style="background:${color}">${ev.category}</span>` +
+      `<div class="card-title">${ev.title}</div>` +
+      `<div class="card-meta">` +
+      `<div class="card-meta-row"><span class="card-meta-icon">📅</span><span>${ev.date_raw||"日程未定"}</span></div>` +
+      (ev.location ? `<div class="card-meta-row"><span class="card-meta-icon">📍</span><span>${ev.location}</span></div>` : "") +
+      `</div>` +
+      `<div class="card-age-badge">👶 ${ev.target_age}</div>` +
+      `</div>` +
+      `<div class="card-footer">` +
+      `<a class="card-link" href="${ev.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">詳細 →</a>` +
+      `</div>` +
+      `</div>`;
+  }).join("");
+  // data-ev属性にJSONを設定
+  grid.querySelectorAll(".event-card").forEach((card, i) => {
+    card.dataset.ev = JSON.stringify(events[i]);
+  });
 }
 
 function renderCalendar(events) {
   const fcEvents = events.map(ev => {
-    const date = parseDate(ev.date_raw);
+    const date = parseDate(ev.date_raw) || ev.date_iso;
     if (!date) return null;
-    return {
-      title: ev.title,
-      start: date,
-      backgroundColor: catColor(ev.category),
-      borderColor: catColor(ev.category),
-      extendedProps: ev,
-    };
+    return { title: ev.title, start: date, backgroundColor: catColor(ev.category), borderColor: catColor(ev.category), extendedProps: ev };
   }).filter(Boolean);
 
   if (calendar) {
@@ -714,28 +695,23 @@ function renderCalendar(events) {
     return;
   }
 
-  calendar = new FullCalendar.Calendar(document.getElementById('fc-calendar'), {
-    initialView: 'dayGridMonth',
-    locale: 'ja',
-    headerToolbar: {
-      left: 'prev,next today',
-      center: 'title',
-      right: 'dayGridMonth,listMonth',
-    },
-    buttonText: {
-      today: '今月',
-      month: '月',
-      list: 'リスト',
-    },
+  const el = document.getElementById("fc-calendar");
+  if (!el) return;
+  calendar = new FullCalendar.Calendar(el, {
+    initialView: "dayGridMonth",
+    locale: "ja",
+    headerToolbar: { left: "prev,next today", center: "title", right: "dayGridMonth,listMonth" },
+    buttonText: { today: "今月", month: "月", list: "リスト" },
     events: fcEvents,
-    eventClick: function(info) {
-      openModal(info.event.extendedProps);
-    },
-    eventDisplay: 'block',
-    dayMaxEvents: 3,
+    eventClick: function(info) { openModal(info.event.extendedProps); },
+    height: "auto",
   });
   calendar.render();
 }
 
-function openModal(ev) {
-  const color = catColor(
+function switchView(view) {
+  currentView = view;
+  document.getElementById("calendar-view").style.display = view === "calendar" ? "block" : "none";
+  document.getElementById("list-view").style.display = view === "list" ? "block" : "none";
+  document.querySelectorAll(".view-btn").forEach(b => b.classList.remove("active"));
+  const btn
