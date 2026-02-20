@@ -24,7 +24,7 @@ jobs:
           python-version: "3.11"
 
       - name: 依存パッケージをインストール
-        run: pip install playwright beautifulsoup4 lxml
+        run: pip install playwright beautifulsoup4 lxml requests
 
       - name: Playwright ブラウザをインストール
         run: playwright install chromium --with-deps
