@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-21T00:52:56.685154",
-  "count": 39,
+  "updated_at": "2026-02-21T22:15:54.626584",
+  "count": 36,
   "events": [
     {
       "title": "未就園児クラスぽっぽ組",
@@ -101,20 +101,6 @@
       "body_preview": ""
     },
     {
-      "title": "★安心して仕事復帰をするためのお話",
-      "date_raw": "2月17日（火 ）",
-      "date_iso": "2026-02-17",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "2月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1384150",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "おはなしボランティア「びわの木」",
       "date_raw": "2026年2月21日",
       "date_iso": "2026-02-21",
@@ -126,34 +112,6 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1496.html",
       "source": "子育てナビ",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "第二回ツインズ交流会♫",
-      "date_raw": "2026年2月21日",
-      "date_iso": "2026-02-21",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1967.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
-      "date_raw": "2026年02月21日",
-      "date_iso": "2026-02-21",
-      "time_raw": "10:30〜10:50",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7939",
-      "source": "こども文化会館",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -210,20 +168,6 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1956.html",
       "source": "子育てナビ",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★赤ちゃんとのおしゃべりサイン",
-      "date_raw": "2月26日（木 ）",
-      "date_iso": "2026-02-26",
-      "time_raw": "10:00〜10:45",
-      "location": "総合子育て支援センター",
-      "apply_info": "2月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1384655",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -294,6 +238,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7961",
       "source": "こども文化会館",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
+      "date_raw": "2026年03月07日",
+      "date_iso": "2026-03-07",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "その他",
+      "target_age": "0歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8042",
+      "source": "こども文化会館",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
