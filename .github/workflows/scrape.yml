@@ -2,7 +2,7 @@ name: 毎日スクレイピング & GitHub Pages 更新
 
 on:
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "0 22 * * *"  # 日本時間 毎朝7時（UTC 22時）
   workflow_dispatch:
 
 permissions:
@@ -11,7 +11,6 @@ permissions:
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
@@ -24,7 +23,7 @@ jobs:
           python-version: "3.11"
 
       - name: 依存パッケージをインストール
-        run: pip install playwright beautifulsoup4 lxml requests
+        run: pip install playwright beautifulsoup4 lxml requests pdfplumber
 
       - name: Playwright ブラウザをインストール
         run: playwright install chromium --with-deps
