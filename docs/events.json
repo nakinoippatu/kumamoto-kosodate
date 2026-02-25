@@ -1,21 +1,7 @@
 {
-  "updated_at": "2026-02-24T22:26:05.330066",
-  "count": 53,
+  "updated_at": "2026-02-25T22:25:16.764869",
+  "count": 58,
   "events": [
-    {
-      "title": "未就園児クラスぽっぽ組",
-      "date_raw": "2025年6月18日",
-      "date_iso": "2025-06-18",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1772.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
     {
       "title": "びわの木文庫（東区西原1丁目）での児童書の貸し出し",
       "date_raw": "2026年1月24日",
@@ -96,20 +82,6 @@
       "category": "その他",
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1775.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "子育て応援セミナー",
-      "date_raw": "2026年2月11日",
-      "date_iso": "2026-02-11",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1370.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -199,20 +171,6 @@
       "body_preview": ""
     },
     {
-      "title": "★安心して仕事復帰をするためのお話",
-      "date_raw": "2月17日（火 ）",
-      "date_iso": "2026-02-17",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "2月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1384150",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "トイレトレーニング （申込制）",
       "date_raw": "2026-02-18",
       "date_iso": "2026-02-18",
@@ -283,20 +241,6 @@
       "body_preview": ""
     },
     {
-      "title": "★赤ちゃんとのおしゃべりサイン",
-      "date_raw": "2月26日（木 ）",
-      "date_iso": "2026-02-26",
-      "time_raw": "10:00〜10:45",
-      "location": "総合子育て支援センター",
-      "apply_info": "2月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1384655",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "あつまれ！ やんちゃ隊『絵本の世界へようこそ！みんなが童話の主人公！？』",
       "date_raw": "2026年02月26日",
       "date_iso": "2026-02-26",
@@ -307,6 +251,20 @@
       "target_age": "3〜5歳",
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7892",
       "source": "こども文化会館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "2月27日（金曜日）おいでよmoyai＠オンライン～ホームケア＆夫婦のチームづくり～",
+      "date_raw": "2026年2月27日",
+      "date_iso": "2026-02-27",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1931.html",
+      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -353,6 +311,20 @@
       "body_preview": ""
     },
     {
+      "title": "3月3日（火曜日）「よんで☺よんでのかい」",
+      "date_raw": "2026年3月3日",
+      "date_iso": "2026-03-03",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1763.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "子育て中のママのためのお金の教室",
       "date_raw": "2026年3月3日",
       "date_iso": "2026-03-03",
@@ -362,6 +334,20 @@
       "category": "生活支援",
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1788.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "プレママ＆新米ママとベビーの憩いの広場〈3月〉",
+      "date_raw": "2026年3月4日",
+      "date_iso": "2026-03-04",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "0歳",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1919.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -423,6 +409,20 @@
       "body_preview": ""
     },
     {
+      "title": "3／8（日曜日）　第2回ファミリーリトミックフェスティバル",
+      "date_raw": "2026年3月8日",
+      "date_iso": "2026-03-08",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1199.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "理系のロールモデル講演会（オンライン）を開催!!",
       "date_raw": "2026年3月8日",
       "date_iso": "2026-03-08",
@@ -448,6 +448,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7996",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "楽しく、こねこね、味噌作り！",
+      "date_raw": "2026年3月10日",
+      "date_iso": "2026-03-10",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1967.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -549,6 +563,34 @@
       "body_preview": ""
     },
     {
+      "title": "3月19日開催🥄初めての離乳食教室～子育てがちょっと楽になるヒント～🥄",
+      "date_raw": "2026年3月19日",
+      "date_iso": "2026-03-19",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "食育・栄養",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1657.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★発達のみちしるべ",
+      "date_raw": "3月19日（木 ）",
+      "date_iso": "2026-03-19",
+      "time_raw": "10:00〜11:30",
+      "location": "総合子育て支援センター",
+      "apply_info": "3月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1430401",
+      "category": "発達・育児相談",
+      "target_age": "3〜5歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
       "title": "ボールプールで遊ぼう",
       "date_raw": "2026年03月19日",
       "date_iso": "2026-03-19",
@@ -574,6 +616,34 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8041",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "★親子でのびのびリフレッシュ",
+      "date_raw": "3月25日（水 ）",
+      "date_iso": "2026-03-25",
+      "time_raw": "10:00〜10:45",
+      "location": "総合子育て支援センター",
+      "apply_info": "3月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1430339",
+      "category": "その他",
+      "target_age": "1〜2歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "Baby English",
+      "date_raw": "2026年3月26日",
+      "date_iso": "2026-03-26",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1934.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
