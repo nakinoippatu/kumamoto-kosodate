@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-02-27T14:42:51.850746",
-  "count": 186,
+  "updated_at": "2026-02-27T15:22:51.912905",
+  "count": 184,
   "events": [
     {
       "title": "びわの木文庫（東区西原1丁目）での児童書の貸し出し",
@@ -222,34 +222,6 @@
       "category": "親子ふれあい",
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1496.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "2月27日（金曜日）おいでよmoyai＠オンライン～ホームケア＆夫婦のチームづくり～",
-      "date_raw": "2026年2月27日",
-      "date_iso": "2026-02-27",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1931.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "英語であそぼう",
-      "date_raw": "2026年2月27日",
-      "date_iso": "2026-02-27",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1955.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
