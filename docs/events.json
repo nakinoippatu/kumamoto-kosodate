@@ -1,49 +1,7 @@
 {
-  "updated_at": "2026-02-27T22:16:43.918262",
-  "count": 184,
+  "updated_at": "2026-02-28T22:18:08.946237",
+  "count": 172,
   "events": [
-    {
-      "title": "びわの木文庫（東区西原1丁目）での児童書の貸し出し",
-      "date_raw": "2026年1月24日",
-      "date_iso": "2026-01-24",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1881.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "朝の活動 てがたアート 【製作セット】 （申込制）",
-      "date_raw": "2026-02-03",
-      "date_iso": "2026-02-03",
-      "time_raw": "10:30〜",
-      "location": "託麻児童館",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
-      "source": "託麻児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "救急法指導",
-      "date_raw": "2026-02-04",
-      "date_iso": "2026-02-04",
-      "time_raw": "10:30〜",
-      "location": "託麻児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
-      "source": "託麻児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
     {
       "title": "赤ちゃんおいで ～0歳児対象～ （申込制）",
       "date_raw": "2026-02-06",
@@ -55,34 +13,6 @@
       "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
       "source": "幸田児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "親子トランポリン あそび",
-      "date_raw": "2026-02-06",
-      "date_iso": "2026-02-06",
-      "time_raw": "10:30〜",
-      "location": "託麻児童館",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
-      "source": "託麻児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "びわの木文庫（東区西原1丁目）での児童書の貸し出し（2月）",
-      "date_raw": "2026年2月7日",
-      "date_iso": "2026-02-07",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1775.html",
-      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -101,20 +31,6 @@
       "body_preview": ""
     },
     {
-      "title": "のりもので あそぼう！",
-      "date_raw": "2026-02-12",
-      "date_iso": "2026-02-12",
-      "time_raw": "10:30〜",
-      "location": "託麻児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
-      "source": "託麻児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "おはなしタイム （どなたでもどうぞ）",
       "date_raw": "2026-02-13",
       "date_iso": "2026-02-13",
@@ -125,20 +41,6 @@
       "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
       "source": "幸田児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "朝の活動 お別れ会 （申込制）",
-      "date_raw": "2026-02-13",
-      "date_iso": "2026-02-13",
-      "time_raw": "10:30〜",
-      "location": "託麻児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
-      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -185,20 +87,6 @@
       "body_preview": ""
     },
     {
-      "title": "朝の活動 はっぴーたいむ【予約 制】12ヶ月までの乳児 対象",
-      "date_raw": "2026-02-19",
-      "date_iso": "2026-02-19",
-      "time_raw": "10:30〜",
-      "location": "託麻児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
-      "source": "託麻児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "おひなさまづくり （申込制）",
       "date_raw": "2026-02-20",
       "date_iso": "2026-02-20",
@@ -213,20 +101,6 @@
       "body_preview": ""
     },
     {
-      "title": "おはなしボランティア「びわの木」",
-      "date_raw": "2026年2月21日",
-      "date_iso": "2026-02-21",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1496.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "ミニミニサーキットで あそぼう （申込制）",
       "date_raw": "2026-02-27",
       "date_iso": "2026-02-27",
@@ -237,20 +111,6 @@
       "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
       "source": "幸田児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "SOMPOケア そんぽの家清水麻生田 子ども食堂  2月28日",
-      "date_raw": "2026年2月28日",
-      "date_iso": "2026-02-28",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1696.html",
-      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1725,20 +1585,6 @@
       "body_preview": ""
     },
     {
-      "title": "★発達のみちしるべ",
-      "date_raw": "3月19日（木 ）",
-      "date_iso": "2026-03-19",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "3月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1430401",
-      "category": "発達・育児相談",
-      "target_age": "3〜5歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "ボールプールで遊ぼう",
       "date_raw": "2026年03月19日",
       "date_iso": "2026-03-19",
@@ -2085,20 +1931,6 @@
       "target_age": "0歳",
       "url": "https://www.kumamoto-ayumi.org/ayumicenter/",
       "source": "あゆみ子どもセンター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
-      "title": "★親子でのびのびリフレッシュ",
-      "date_raw": "3月25日（水 ）",
-      "date_iso": "2026-03-25",
-      "time_raw": "10:00〜10:45",
-      "location": "総合子育て支援センター",
-      "apply_info": "3月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1430339",
-      "category": "その他",
-      "target_age": "1〜2歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
       "needs_reservation": true,
       "body_preview": ""
     },
