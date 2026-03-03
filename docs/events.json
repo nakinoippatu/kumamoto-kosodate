@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-02T22:21:16.561565",
-  "count": 180,
+  "updated_at": "2026-03-03T22:21:49.600781",
+  "count": 179,
   "events": [
     {
       "title": "朝の活動 てがたアート 【製作セット】 （申込制）",
@@ -307,20 +307,6 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "3月3日（火曜日）「よんで☺よんでのかい」",
-      "date_raw": "2026年3月3日",
-      "date_iso": "2026-03-03",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1763.html",
-      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
