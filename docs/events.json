@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-04T22:24:13.345745",
-  "count": 187,
+  "updated_at": "2026-03-05T22:23:51.367578",
+  "count": 186,
   "events": [
     {
       "title": "朝の活動 てがたアート 【製作セット】 （申込制）",
@@ -311,20 +311,6 @@
       "body_preview": ""
     },
     {
-      "title": "子育て中のママのためのお金の教室",
-      "date_raw": "2026年3月3日",
-      "date_iso": "2026-03-03",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "生活支援",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1788.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "ひなまつり会",
       "date_raw": "2026年3月3日",
       "date_iso": "2026-03-03",
@@ -559,20 +545,6 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "あつまれ! やんちゃ隊『どれにしようかな？楽しくお買い物』",
-      "date_raw": "2026年03月05日",
-      "date_iso": "2026-03-05",
-      "time_raw": "11:00〜11:30",
-      "location": "熊本市こども文化会館",
-      "apply_info": "当日申込可",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7961",
-      "source": "こども文化会館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1750,6 +1722,20 @@
       "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
       "source": "総合子育て支援センター",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "あつまれ! やんちゃ隊『どれにしようかな？楽しくお買い物』",
+      "date_raw": "2026年03月19日",
+      "date_iso": "2026-03-19",
+      "time_raw": "11:00〜11:30",
+      "location": "熊本市こども文化会館",
+      "apply_info": "当日申込可",
+      "category": "その他",
+      "target_age": "3〜5歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7962",
+      "source": "こども文化会館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
