@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-06T22:20:54.573026",
+  "updated_at": "2026-03-07T22:16:16.238541",
   "count": 194,
   "events": [
     {
@@ -826,20 +826,6 @@
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
-      "date_raw": "2026年03月07日",
-      "date_iso": "2026-03-07",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8042",
-      "source": "こども文化会館",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -2716,6 +2702,20 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1710.html",
       "source": "子育てナビ",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
+      "date_raw": "2026年04月25日",
+      "date_iso": "2026-04-25",
+      "time_raw": "10:30〜10:50",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "その他",
+      "target_age": "0歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8056",
+      "source": "こども文化会館",
+      "needs_reservation": true,
       "body_preview": ""
     }
   ]
