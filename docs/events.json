@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-08T22:16:21.475365",
-  "count": 196,
+  "updated_at": "2026-03-09T22:21:52.269703",
+  "count": 197,
   "events": [
     {
       "title": "手形で壁面飾りづくり",
@@ -2589,6 +2589,20 @@
       "target_age": "0歳",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1600.html",
       "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "あつまれ！やんちゃ隊「ようこそ！ひよこルームへ♪」",
+      "date_raw": "2026年04月09日",
+      "date_iso": "2026-04-09",
+      "time_raw": "11:00〜11:30",
+      "location": "熊本市こども文化会館",
+      "apply_info": "当日申込可",
+      "category": "その他",
+      "target_age": "3〜5歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8052",
+      "source": "こども文化会館",
       "needs_reservation": false,
       "body_preview": ""
     },
