@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-09T22:21:52.269703",
-  "count": 197,
+  "updated_at": "2026-03-10T22:21:09.352283",
+  "count": 196,
   "events": [
     {
       "title": "手形で壁面飾りづくり",
@@ -909,20 +909,6 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "楽しく、こねこね、味噌作り！",
-      "date_raw": "2026年3月10日",
-      "date_iso": "2026-03-10",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1967.html",
-      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
