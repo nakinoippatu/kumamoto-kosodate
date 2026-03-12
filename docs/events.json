@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-11T22:21:24.611691",
+  "updated_at": "2026-03-12T22:18:20.377186",
   "count": 202,
   "events": [
     {
@@ -1092,20 +1092,6 @@
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
       "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
-      "title": "みつばちルームのお楽しみ会",
-      "date_raw": "2026年03月12日",
-      "date_iso": "2026-03-12",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "当日申込可",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8025",
-      "source": "こども文化会館",
-      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -2700,6 +2686,20 @@
       "category": "その他",
       "target_age": "0歳",
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7992",
+      "source": "こども文化会館",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "★ゆうゆうタイム　（カタカタレース　はじめの一歩！）",
+      "date_raw": "2026年04月09日",
+      "date_iso": "2026-04-09",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "その他",
+      "target_age": "3〜5歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8060",
       "source": "こども文化会館",
       "needs_reservation": true,
       "body_preview": ""
