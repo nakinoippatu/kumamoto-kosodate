@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-14T22:19:00.248005",
-  "count": 213,
+  "updated_at": "2026-03-15T22:20:43.148642",
+  "count": 211,
   "events": [
     {
       "title": "手形で壁面飾りづくり",
@@ -1291,48 +1291,6 @@
       "body_preview": ""
     },
     {
-      "title": "3月15日（日曜日）☆きてきて♪マタニティ＆産後moyaiお話会",
-      "date_raw": "2026年3月15日",
-      "date_iso": "2026-03-15",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "産前・産後",
-      "target_age": "0歳",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1263.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "第5回子ども大学くまもと",
-      "date_raw": "2026年3月15日",
-      "date_iso": "2026-03-15",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1788.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "龍山学苑子ども食堂〖つどい〗～3月15日開催～",
-      "date_raw": "2026年3月15日",
-      "date_iso": "2026-03-15",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1955.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "おはなしほっとタイム",
       "date_raw": "2026年3月16日",
       "date_iso": "2026-03-16",
@@ -2435,6 +2393,20 @@
       "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji00364628/index.html",
       "source": "幸田子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "プレパパママ教室",
+      "date_raw": "2026年3月29日",
+      "date_iso": "2026-03-29",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "父親・家族支援",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1946.html",
+      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
