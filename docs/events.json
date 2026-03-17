@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-16T22:26:00.780452",
-  "count": 211,
+  "updated_at": "2026-03-17T22:25:58.019134",
+  "count": 209,
   "events": [
     {
       "title": "手形で壁面飾りづくり",
@@ -1343,34 +1343,6 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "赤ちゃんの向きぐせ、そり返り相談会🐣",
-      "date_raw": "2026年3月17日",
-      "date_iso": "2026-03-17",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "発達・育児相談",
-      "target_age": "0歳",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1967.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "英語であそぼう",
-      "date_raw": "2026年3月17日",
-      "date_iso": "2026-03-17",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1496.html",
-      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
