@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-20T22:21:04.646036",
-  "count": 211,
+  "updated_at": "2026-03-21T22:17:09.552437",
+  "count": 209,
   "events": [
     {
       "title": "赤ちゃんおいで ～0歳児対象～ （申込制）",
@@ -1511,34 +1511,6 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "子ども未来キャリアDAY",
-      "date_raw": "2026年3月21日",
-      "date_iso": "2026-03-21",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1881.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "こどもお仕事体験ランド2026",
-      "date_raw": "2026年3月21日",
-      "date_iso": "2026-03-21",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1763.html",
-      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
