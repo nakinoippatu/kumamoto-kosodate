@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-22T22:18:23.498544",
-  "count": 208,
+  "updated_at": "2026-03-23T22:24:06.009451",
+  "count": 206,
   "events": [
     {
       "title": "赤ちゃんおいで ～0歳児対象～ （申込制）",
@@ -1566,34 +1566,6 @@
       "category": "その他",
       "target_age": "小学生以上",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1948.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "ベビーマッサージ〈3月〉",
-      "date_raw": "2026年3月23日",
-      "date_iso": "2026-03-23",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "0歳",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1911.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "赤ちゃん競争〈3月〉",
-      "date_raw": "2026年3月23日",
-      "date_iso": "2026-03-23",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1775.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
