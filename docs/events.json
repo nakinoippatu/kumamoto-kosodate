@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-03-23T22:24:06.009451",
-  "count": 206,
+  "updated_at": "2026-03-24T22:23:27.878787",
+  "count": 213,
   "events": [
     {
       "title": "赤ちゃんおいで ～0歳児対象～ （申込制）",
@@ -2159,15 +2159,29 @@
       "body_preview": ""
     },
     {
-      "title": "プレパパママ教室",
+      "title": "無料「レゴロボット」プログラミングロボコン体験教室",
       "date_raw": "2026年3月29日",
       "date_iso": "2026-03-29",
       "time_raw": "",
       "location": "",
       "apply_info": "",
-      "category": "父親・家族支援",
+      "category": "その他",
       "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1946.html",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1763.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "無料プログラミング体験「マイクラ」＆「ミニゲームづくり」",
+      "date_raw": "2026年3月29日",
+      "date_iso": "2026-03-29",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1775.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -2215,6 +2229,20 @@
       "body_preview": ""
     },
     {
+      "title": "プレママ＆新米ママとベビーの憩いの広場（4月）",
+      "date_raw": "2026年4月1日",
+      "date_iso": "2026-04-01",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "0歳",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1911.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "産後ケア＆骨盤コンディショニング講座（4月）",
       "date_raw": "2026年4月2日",
       "date_iso": "2026-04-02",
@@ -2243,6 +2271,34 @@
       "body_preview": ""
     },
     {
+      "title": "おはなしボランティア「びわの木」（4月）",
+      "date_raw": "2026年4月4日",
+      "date_iso": "2026-04-04",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1370.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "びわの木文庫（東区西原1丁目）での本の貸し出し（4月）",
+      "date_raw": "2026年4月4日",
+      "date_iso": "2026-04-04",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1956.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "子育てママのカラー＆メイクレッスン（4月）",
       "date_raw": "2026年4月6日",
       "date_iso": "2026-04-06",
@@ -2252,6 +2308,20 @@
       "category": "生活支援",
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1930.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "4月7日（火曜日）「よんで☺よんでのかい」",
+      "date_raw": "2026年4月7日",
+      "date_iso": "2026-04-07",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1788.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -2280,6 +2350,20 @@
       "category": "産前・産後",
       "target_age": "0歳",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1600.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "4月9日開催🥄初めての離乳食教室～子育てがちょっと楽になるヒント～",
+      "date_raw": "2026年4月9日",
+      "date_iso": "2026-04-09",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "食育・栄養",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1881.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -2366,6 +2450,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8058",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "米粉で作るシフォンケーキ",
+      "date_raw": "2026年4月14日",
+      "date_iso": "2026-04-14",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1606.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -2509,6 +2607,20 @@
       "body_preview": ""
     },
     {
+      "title": "開講講座",
+      "date_raw": "2026年4月22日",
+      "date_iso": "2026-04-22",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1496.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "おはなし たんぽぽ",
       "date_raw": "2026-04-22",
       "date_iso": "2026-04-22",
@@ -2519,20 +2631,6 @@
       "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
       "source": "花園児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "【天使カフェ】in 熊本 協力:「みんなの和」",
-      "date_raw": "2026年4月23日",
-      "date_iso": "2026-04-23",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1710.html",
-      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
