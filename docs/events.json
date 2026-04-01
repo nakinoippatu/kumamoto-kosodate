@@ -1,7 +1,35 @@
 {
-  "updated_at": "2026-03-31T22:26:51.212821",
-  "count": 151,
+  "updated_at": "2026-04-01T22:30:31.602048",
+  "count": 161,
   "events": [
+    {
+      "title": "プレバレーで遊ぼう！キッズ編・ビギナー編",
+      "date_raw": "2026年3月29日",
+      "date_iso": "2026-03-29",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1955.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "小学生で身につけたいバレーの基礎を学ぼう！アスリートコース編",
+      "date_raw": "2026年3月29日",
+      "date_iso": "2026-03-29",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "小学生以上",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1696.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
     {
       "title": "無料「レゴロボット」プログラミングロボコン体験教室",
       "date_raw": "2026年3月29日",
@@ -493,20 +521,6 @@
       "body_preview": ""
     },
     {
-      "title": "★マリア先生のベビーからのEnjoy English【4/9～翌3/18】月2～4回",
-      "date_raw": "2026年04月09日",
-      "date_iso": "2026-04-09",
-      "time_raw": "09:15〜10:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7992",
-      "source": "こども文化会館",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "★ゆうゆうタイム　（カタカタレース　はじめの一歩！）",
       "date_raw": "2026年04月09日",
       "date_iso": "2026-04-09",
@@ -703,6 +717,20 @@
       "body_preview": ""
     },
     {
+      "title": "おはなしほっとタイム （0歳）",
+      "date_raw": "2026年4月13日",
+      "date_iso": "2026-04-13",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "0歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "〇 午前",
       "date_raw": "2026年4月13日",
       "date_iso": "2026-04-13",
@@ -783,6 +811,20 @@
       "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "子育て中のママのためのお金の教室",
+      "date_raw": "2026年4月14日",
+      "date_iso": "2026-04-14",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "生活支援",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1949.html",
+      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -899,17 +941,17 @@
       "body_preview": ""
     },
     {
-      "title": "★ベビーダンス",
-      "date_raw": "4月15日（水 ）",
+      "title": "ベビーダンス",
+      "date_raw": "2026年4月15日",
       "date_iso": "2026-04-15",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "4月6日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1484733",
-      "category": "その他",
-      "target_age": "3〜5歳",
+      "time_raw": "00:00〜",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "0歳",
       "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
       "source": "総合子育て支援センター",
-      "needs_reservation": true,
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -969,6 +1011,20 @@
       "body_preview": ""
     },
     {
+      "title": "イースターおやこ英語レッスン",
+      "date_raw": "2026年4月16日",
+      "date_iso": "2026-04-16",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1718.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "★ベビーダンス体験教室",
       "date_raw": "2026年04月16日",
       "date_iso": "2026-04-16",
@@ -980,6 +1036,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7951",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "誕生会",
+      "date_raw": "2026年4月16日",
+      "date_iso": "2026-04-16",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1221,6 +1291,20 @@
       "body_preview": ""
     },
     {
+      "title": "おはなしほっとタイム （1歳～）",
+      "date_raw": "2026年4月20日",
+      "date_iso": "2026-04-20",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "1〜2歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "27 下記のイベントには予約が必要です。 来所時にご予約ください。 ◎ 9日・14日・22日「お話会」 ・10:00から20分程度、ボランティアの方が 絵本の読み聞かせやふれあい遊びをしてくれます。 ◎24日 ・4月生まれのお友だちの誕生会を します。 ◎28日 ・10:00からは、1歳以上のお子さん、 14:00からは赤ちゃん対象です。 ◎21日「こどもの日の制作」 ・折り紙で作った金太郎さんやこいのぼりを お面に貼って、頭にかぶるよ。",
       "date_raw": "2026年4月20日",
       "date_iso": "2026-04-20",
@@ -1305,17 +1389,17 @@
       "body_preview": ""
     },
     {
-      "title": "★親子で3B体操",
-      "date_raw": "4月21日（火 ）",
+      "title": "親子で3B体操",
+      "date_raw": "2026年4月21日",
       "date_iso": "2026-04-21",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "4月6日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1484736",
+      "time_raw": "00:00〜",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
       "category": "親子ふれあい",
-      "target_age": "1〜2歳",
+      "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
       "source": "総合子育て支援センター",
-      "needs_reservation": true,
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1511,6 +1595,20 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1710.html",
       "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "季節の制作 「こいのぼり」",
+      "date_raw": "2026年4月23日",
+      "date_iso": "2026-04-23",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1865,6 +1963,34 @@
       "body_preview": ""
     },
     {
+      "title": "第2回「熊本転入ママ交流会」",
+      "date_raw": "2026年4月29日",
+      "date_iso": "2026-04-29",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1967.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "昭和の日",
+      "date_raw": "2026年4月29日",
+      "date_iso": "2026-04-29",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "○",
       "date_raw": "2026年4月29日",
       "date_iso": "2026-04-29",
@@ -2014,6 +2140,20 @@
       "category": "産前・産後",
       "target_age": "0歳",
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7908",
+      "source": "こども文化会館",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "★マリア先生のベビーからのEnjoy English【5/14～翌3/18】月2～4回",
+      "date_raw": "2026年05月14日",
+      "date_iso": "2026-05-14",
+      "time_raw": "09:15〜10:00",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "その他",
+      "target_age": "0歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7992",
       "source": "こども文化会館",
       "needs_reservation": true,
       "body_preview": ""
