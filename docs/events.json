@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-05T22:22:34.332356",
-  "count": 146,
+  "updated_at": "2026-04-06T22:28:01.436516",
+  "count": 161,
   "events": [
     {
       "title": "無料プログラミング体験「マイクラ」＆「ミニゲームづくり」",
@@ -45,6 +45,48 @@
       "body_preview": ""
     },
     {
+      "title": "★育児講座 「知っ得！園選び」",
+      "date_raw": "2026年4月1日",
+      "date_iso": "2026-04-01",
+      "time_raw": "10:30〜",
+      "location": "熊本市東区戸島西（やまなみこども園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://yamanami-kodomoen.com/summary/",
+      "source": "やまなみ子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "デビューデー",
+      "date_raw": "2026年4月1日",
+      "date_iso": "2026-04-01",
+      "time_raw": "11:00〜11:30",
+      "location": "熊本市西区小島（小島保育園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00364624/index.html",
+      "source": "小島子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "あそびの 広場",
+      "date_raw": "2026年4月1日",
+      "date_iso": "2026-04-01",
+      "time_raw": "10:00〜",
+      "location": "熊本市南区城南町（小木こども園内）",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://ogihoiku.com/page-76/",
+      "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "産後ケア＆骨盤コンディショニング講座（4月）",
       "date_raw": "2026年4月2日",
       "date_iso": "2026-04-02",
@@ -59,6 +101,48 @@
       "body_preview": ""
     },
     {
+      "title": "★身体測定",
+      "date_raw": "2026年4月2日",
+      "date_iso": "2026-04-02",
+      "time_raw": "10:00〜",
+      "location": "熊本市東区戸島西（やまなみこども園内）",
+      "apply_info": "",
+      "category": "健康・医療",
+      "target_age": "指定なし",
+      "url": "https://yamanami-kodomoen.com/summary/",
+      "source": "やまなみ子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★みんなでお花見",
+      "date_raw": "2026年4月2日",
+      "date_iso": "2026-04-02",
+      "time_raw": "10:00〜",
+      "location": "熊本市東区下江津（画図保育園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.ezuhoikuen.jp/childcare/",
+      "source": "画図子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "あそびの 広場",
+      "date_raw": "2026年4月2日",
+      "date_iso": "2026-04-02",
+      "time_raw": "10:00〜",
+      "location": "熊本市南区城南町（小木こども園内）",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://ogihoiku.com/page-76/",
+      "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "理学療法士が教える　産後ダイエット（4月）",
       "date_raw": "2026年4月3日",
       "date_iso": "2026-04-03",
@@ -69,6 +153,34 @@
       "target_age": "0歳",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1939.html",
       "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "○",
+      "date_raw": "2026年4月3日",
+      "date_iso": "2026-04-03",
+      "time_raw": "10:00〜",
+      "location": "熊本市東区戸島西（やまなみこども園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://yamanami-kodomoen.com/summary/",
+      "source": "やまなみ子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "あそびの 広場",
+      "date_raw": "2026年4月3日",
+      "date_iso": "2026-04-03",
+      "time_raw": "10:00〜",
+      "location": "熊本市南区城南町（小木こども園内）",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://ogihoiku.com/page-76/",
+      "source": "城南子育て支援センター",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -563,6 +675,20 @@
       "body_preview": ""
     },
     {
+      "title": "おはなしほっとタイム （0歳）",
+      "date_raw": "2026年4月13日",
+      "date_iso": "2026-04-13",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "0歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "〇 午前",
       "date_raw": "2026年4月13日",
       "date_iso": "2026-04-13",
@@ -787,6 +913,20 @@
       "body_preview": ""
     },
     {
+      "title": "ベビーダンス",
+      "date_raw": "2026年4月15日",
+      "date_iso": "2026-04-15",
+      "time_raw": "00:00〜",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "0歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "★ハーフバースデー 10:30～",
       "date_raw": "2026年4月15日",
       "date_iso": "2026-04-15",
@@ -868,6 +1008,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7951",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "誕生会",
+      "date_raw": "2026年4月16日",
+      "date_iso": "2026-04-16",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1109,6 +1263,20 @@
       "body_preview": ""
     },
     {
+      "title": "おはなしほっとタイム （1歳～）",
+      "date_raw": "2026年4月20日",
+      "date_iso": "2026-04-20",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "1〜2歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "27 下記のイベントには予約が必要です。 来所時にご予約ください。 ◎ 9日・14日・22日「お話会」 ・10:00から20分程度、ボランティアの方が 絵本の読み聞かせやふれあい遊びをしてくれます。 ◎24日 ・4月生まれのお友だちの誕生会を します。 ◎28日 ・10:00からは、1歳以上のお子さん、 14:00からは赤ちゃん対象です。 ◎21日「こどもの日の制作」 ・折り紙で作った金太郎さんやこいのぼりを お面に貼って、頭にかぶるよ。",
       "date_raw": "2026年4月20日",
       "date_iso": "2026-04-20",
@@ -1204,6 +1372,20 @@
       "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
       "source": "総合子育て支援センター",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "親子で3B体操",
+      "date_raw": "2026年4月21日",
+      "date_iso": "2026-04-21",
+      "time_raw": "00:00〜",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1399,6 +1581,20 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1710.html",
       "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "季節の制作 「こいのぼり」",
+      "date_raw": "2026年4月23日",
+      "date_iso": "2026-04-23",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1763,6 +1959,20 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1967.html",
       "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "昭和の日",
+      "date_raw": "2026年4月29日",
+      "date_iso": "2026-04-29",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市中央区本荘（本荘保育園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
       "needs_reservation": false,
       "body_preview": ""
     },
