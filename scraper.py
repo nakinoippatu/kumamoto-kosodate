@@ -23,6 +23,7 @@ import re
 import time
 from datetime import date, datetime
 from pathlib import Path
+from urllib.parse import urljoin, urlparse
 
 import pdfplumber
 import requests
@@ -114,13 +115,71 @@ def _is_non_event(text: str) -> bool:
         return True
     return bool(NON_EVENT_RE.match(t))
 
+def _is_real_kumamoto_pdf(href: str, base_url: str = "https://www.city.kumamoto.jp") -> bool:
+    """
+    候補URLが本物の熊本市PDFか判定する。
+
+    - netloc が city.kumamoto.jp（サブドメイン含む）配下
+    - pathname が .pdf で終わる（クエリ内の .pdf は無視）
+
+    これにより ReadSpeaker等の
+      https://docreader.readspeaker.com/docreader/?url=...pdf
+    のような「PDF音声読み上げリンク」の誤取得を防ぐ。
+    """
+    if not href:
+        return False
+    try:
+        abs_url = urljoin(base_url, href)
+        p = urlparse(abs_url)
+    except Exception:
+        return False
+    if not p.netloc.endswith("city.kumamoto.jp"):
+        return False
+    if not p.path.lower().endswith(".pdf"):
+        return False
+    return True
+
+
+PDF_MIN_BYTES = 5_000  # これ未満はPDFとして扱わない（HTML小ページやエラーページ対策）
+
+
 def _fetch_pdf_bytes(url: str, retries: int = 3) -> bytes | None:
-    """URLからPDFバイト列を取得（500/503エラー時は指数バックオフでリトライ）"""
+    """
+    URLからPDFバイト列を取得（500/503エラー時は指数バックオフでリトライ）。
+
+    HTML等の非PDFを誤取得した場合の二重防御として、
+    - Content-Type が text/html なら拒否
+    - 先頭5バイトが b"%PDF-" でなければ拒否
+    - サイズが PDF_MIN_BYTES 未満なら拒否
+    """
     for attempt in range(1, retries + 1):
         try:
             resp = requests.get(url, timeout=30)
             resp.raise_for_status()
-            return resp.content
+
+            # Content-Type チェック（HTMLを掴んだ場合の早期検出）
+            ctype = (resp.headers.get("Content-Type") or "").lower()
+            if "text/html" in ctype:
+                logger.error(f"PDFでなくHTMLが返却された: {url} (Content-Type={ctype})")
+                return None
+
+            content = resp.content
+
+            # マジックバイト & 最小サイズ検証
+            if len(content) < PDF_MIN_BYTES:
+                logger.error(
+                    f"PDFサイズ不足 {url}: {len(content)} bytes "
+                    f"(必要 >= {PDF_MIN_BYTES})"
+                )
+                return None
+            if not content.startswith(b"%PDF-"):
+                logger.error(
+                    f"PDFマジックバイト不一致 {url}: "
+                    f"先頭={content[:16]!r}"
+                )
+                return None
+
+            return content
         except requests.RequestException as e:
             status = getattr(getattr(e, "response", None), "status_code", None)
             # 500/503/504はサーバー側の一時障害 → リトライ対象
@@ -1620,6 +1679,12 @@ def _fetch_pdf_urls_from_page(pw_page, page_url: str, count: int = 2) -> list[st
     """
     Playwrightで施設ページを開き、PDFのURLを最大 count 件返す。
     花園児童館のように複数PDFが必要な場合に使用する。
+
+    熊本市ページには各PDFリンクの直後に ReadSpeaker（音声読み上げ）の
+      https://docreader.readspeaker.com/docreader/?...&url=...pdf
+    が併存するため、単純な `\\.pdf` 正規表現だと
+    ReadSpeakerリンクを誤取得してしまう。
+    `_is_real_kumamoto_pdf` でホスト＋パス末尾を厳密に確認する。
     """
     try:
         pw_page.goto(page_url, wait_until="domcontentloaded", timeout=60000)
@@ -1630,16 +1695,25 @@ def _fetch_pdf_urls_from_page(pw_page, page_url: str, count: int = 2) -> list[st
         return []
 
     soup = BeautifulSoup(html, "html.parser")
-    all_pdf_links = soup.find_all("a", href=re.compile(r"\.pdf", re.I))
+    # 一次フィルタ: href のどこかに .pdf を含むリンク
+    all_pdf_candidates = soup.find_all("a", href=re.compile(r"\.pdf", re.I))
 
-    urls = []
-    for a in all_pdf_links:
+    urls: list[str] = []
+    skipped = 0
+    for a in all_pdf_candidates:
         href = a.get("href", "")
-        url = href if href.startswith("http") else "https://www.city.kumamoto.jp" + href
+        # 二次フィルタ: netloc が city.kumamoto.jp 配下かつ path 末尾が .pdf
+        if not _is_real_kumamoto_pdf(href, base_url=page_url):
+            skipped += 1
+            continue
+        url = urljoin(page_url, href)
         if url not in urls:
             urls.append(url)
         if len(urls) >= count:
             break
+
+    if skipped:
+        print(f"  ℹ️ 非PDFリンク（ReadSpeaker等）を {skipped} 件スキップ")
     return urls
 
 
@@ -1647,6 +1721,9 @@ def _fetch_pdf_url_from_page(pw_page, page_url: str, keyword: str = "乳幼児")
     """
     Playwrightで施設ページを開き、乳幼児向けPDFのURLを動的取得する。
     熊本市公式サイトはJSレンダリングのため requests では取得不可。
+
+    ReadSpeaker等の非PDFリンクを除外するため `_is_real_kumamoto_pdf`
+    を経由してから返す。
     """
     try:
         pw_page.goto(page_url, wait_until="domcontentloaded", timeout=60000)
@@ -1657,27 +1734,32 @@ def _fetch_pdf_url_from_page(pw_page, page_url: str, keyword: str = "乳幼児")
         return None
 
     soup = BeautifulSoup(html, "html.parser")
-    all_pdf_links = soup.find_all("a", href=re.compile(r"\.pdf", re.I))
+    # 一次フィルタ: href に .pdf を含む + 二次フィルタ: 真のPDFのみ
+    all_pdf_candidates = soup.find_all("a", href=re.compile(r"\.pdf", re.I))
+    pdf_links = [
+        a for a in all_pdf_candidates
+        if _is_real_kumamoto_pdf(a.get("href", ""), base_url=page_url)
+    ]
 
     # "乳幼児" を含むaタグのhrefからPDFを探す
-    for a in all_pdf_links:
+    for a in pdf_links:
         text = a.get_text(strip=True)
         href = a.get("href", "")
         if keyword in text:
-            if href.startswith("http"):
-                return href
-            return "https://www.city.kumamoto.jp" + href
+            return urljoin(page_url, href)
 
     # キーワードなしでも最初のPDFを返す（フォールバック）
-    if all_pdf_links:
-        href = all_pdf_links[0].get("href", "")
-        if href.startswith("http"):
-            return href
-        return "https://www.city.kumamoto.jp" + href
+    if pdf_links:
+        href = pdf_links[0].get("href", "")
+        return urljoin(page_url, href)
 
     # PDF未発見時: デバッグ情報を出力
     all_links = soup.find_all("a", href=True)
-    print(f"  ⚠️ PDFリンクなし（全リンク数: {len(all_links)}件）")
+    skipped_non_pdf = len(all_pdf_candidates) - len(pdf_links)
+    print(
+        f"  ⚠️ PDFリンクなし（全リンク数: {len(all_links)}件 / "
+        f"非PDFスキップ: {skipped_non_pdf}件）"
+    )
     # .pdf以外のダウンロード可能ファイルがあれば表示
     for a in all_links[:5]:
         href = a.get("href", "")
@@ -1719,21 +1801,10 @@ def scrape_all_halls_adapted(pw_page=None) -> list[dict]:
         # ── 花園児童館: 表面(カレンダー) + 裏面(詳細) の2枚PDF ──
         print(f"  {HANAZONO_SOURCE}: PDFリンク取得中...")
         hanazono_pdf_urls = _fetch_pdf_urls_from_page(pw_page, HANAZONO_URL, count=2)
-        MIN_PDF_BYTES = 10_000  # 10KB未満は正規PDFとみなさない
         if len(hanazono_pdf_urls) >= 2:
             pdf_front = _fetch_pdf_bytes(hanazono_pdf_urls[0])
             pdf_back  = _fetch_pdf_bytes(hanazono_pdf_urls[1])
-            # サイズが小さすぎる場合は次のURLを試す
-            if pdf_back and len(pdf_back) < MIN_PDF_BYTES:
-                print(f"  {HANAZONO_SOURCE}: ⚠️ 2枚目が小さすぎる({len(pdf_back):,} bytes)、次のURLを試みます")
-                extra_urls = _fetch_pdf_urls_from_page(pw_page, HANAZONO_URL, count=5)
-                for candidate in extra_urls[2:]:
-                    candidate_bytes = _fetch_pdf_bytes(candidate)
-                    if candidate_bytes and len(candidate_bytes) >= MIN_PDF_BYTES:
-                        pdf_back = candidate_bytes
-                        print(f"  {HANAZONO_SOURCE}: ✅ 裏面PDFを代替URLで取得 ({len(pdf_back):,} bytes)")
-                        break
-            if pdf_front and pdf_back and len(pdf_front) >= MIN_PDF_BYTES and len(pdf_back) >= MIN_PDF_BYTES:
+            if pdf_front and pdf_back:
                 print(f"  {HANAZONO_SOURCE}: ✅ PDF2枚取得成功 (表面:{len(pdf_front):,} bytes / 裏面:{len(pdf_back):,} bytes)")
                 try:
                     hanazono_events = scrape_hanazono(pdf_front, pdf_back)
