@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-24T22:34:15.818209",
-  "count": 154,
+  "updated_at": "2026-04-25T22:28:28.606556",
+  "count": 150,
   "events": [
     {
       "title": "プレパパママ教室",
@@ -125,20 +125,6 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "びわの木文庫（東区西原1丁目）での本の貸し出し（4月）",
-      "date_raw": "2026年4月4日",
-      "date_iso": "2026-04-04",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1956.html",
-      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1399,48 +1385,6 @@
       "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "妊活中・ベビ待ちさんのためのココロとカラダをととのえるアンチエイジングワークショップ",
-      "date_raw": "2026年4月25日",
-      "date_iso": "2026-04-25",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1775.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "4月のガキ大将育て塾『ガキ大将のリズム遊び～体軸運動～』",
-      "date_raw": "2026年4月25日",
-      "date_iso": "2026-04-25",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1919.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "SOMPOケア そんぽの家清水麻生田 子ども食堂  4月25日",
-      "date_raw": "2026年4月25日",
-      "date_iso": "2026-04-25",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1955.html",
-      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
