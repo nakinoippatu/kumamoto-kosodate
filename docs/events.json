@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-02T22:32:05.455399",
-  "count": 149,
+  "updated_at": "2026-05-03T22:32:43.196894",
+  "count": 148,
   "events": [
     {
       "title": "プレパパママ教室",
@@ -42,20 +42,6 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1881.html",
       "source": "子育てナビ",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★みつばち　誕生会",
-      "date_raw": "2026年05月03日",
-      "date_iso": "2026-05-03",
-      "time_raw": "10:30〜10:50",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8076",
-      "source": "こども文化会館",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -1151,20 +1137,6 @@
       "body_preview": ""
     },
     {
-      "title": "★ハイハイ競走",
-      "date_raw": "2026年05月17日",
-      "date_iso": "2026-05-17",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "親子ふれあい",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8087",
-      "source": "こども文化会館",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "おはなしほっとタイム （1歳～）",
       "date_raw": "2026年5月18日",
       "date_iso": "2026-05-18",
@@ -1610,6 +1582,20 @@
       "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
       "source": "池上子育て支援センター",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★ハイハイ競走",
+      "date_raw": "2026年05月24日",
+      "date_iso": "2026-05-24",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "親子ふれあい",
+      "target_age": "0歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8087",
+      "source": "こども文化会館",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
