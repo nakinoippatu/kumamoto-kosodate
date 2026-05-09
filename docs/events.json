@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-08T22:46:30.778832",
-  "count": 120,
+  "updated_at": "2026-05-09T22:34:50.945091",
+  "count": 116,
   "events": [
     {
       "title": "プレパパママ教室",
@@ -42,76 +42,6 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1881.html",
       "source": "子育てナビ",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "ボールプール",
-      "date_raw": "2026年5月8日",
-      "date_iso": "2026-05-08",
-      "time_raw": "10:00〜",
-      "location": "熊本市東区下江津（画図保育園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.ezuhoikuen.jp/childcare/",
-      "source": "画図子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "自由遊び",
-      "date_raw": "2026年5月8日",
-      "date_iso": "2026-05-08",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市西区池上（池上保育園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
-      "source": "池上子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "やすらぎタイム プレママパパ教室",
-      "date_raw": "2026年5月8日",
-      "date_iso": "2026-05-08",
-      "time_raw": "10:00〜",
-      "location": "熊本市南区合志（力合さくら子ども園内）",
-      "apply_info": "",
-      "category": "父親・家族支援",
-      "target_age": "妊娠中",
-      "url": "https://www.rikigo-sakura.jp/childcare/",
-      "source": "さくらっこ子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "ペンギン くらぶ",
-      "date_raw": "2026年5月8日",
-      "date_iso": "2026-05-08",
-      "time_raw": "10:00〜",
-      "location": "熊本市南区城南町（小木こども園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://ogihoiku.com/page-76/",
-      "source": "城南子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
-      "date_raw": "2026年05月09日",
-      "date_iso": "2026-05-09",
-      "time_raw": "10:30〜10:50",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8056",
-      "source": "こども文化会館",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -1622,6 +1552,20 @@
       "category": "生活支援",
       "target_age": "0歳",
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8034",
+      "source": "こども文化会館",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
+      "date_raw": "2026年06月20日",
+      "date_iso": "2026-06-20",
+      "time_raw": "10:30〜10:50",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "その他",
+      "target_age": "0歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8056",
       "source": "こども文化会館",
       "needs_reservation": true,
       "body_preview": ""
