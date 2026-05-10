@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-09T22:34:50.945091",
-  "count": 116,
+  "updated_at": "2026-05-10T22:38:14.492972",
+  "count": 113,
   "events": [
     {
       "title": "プレパパママ教室",
@@ -41,48 +41,6 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1881.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "みどりの日",
-      "date_raw": "2026年5月9日",
-      "date_iso": "2026-05-09",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市中央区白山（白山保育園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364625/index.html",
-      "source": "白山子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "みどりの日",
-      "date_raw": "2026年5月9日",
-      "date_iso": "2026-05-09",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市東区尾ノ上（京塚保育園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364621/index.html",
-      "source": "京塚子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "みどりの日",
-      "date_raw": "2026年5月9日",
-      "date_iso": "2026-05-09",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市西区池上（池上保育園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
-      "source": "池上子育て支援センター",
       "needs_reservation": false,
       "body_preview": ""
     },
