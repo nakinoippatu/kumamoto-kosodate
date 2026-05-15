@@ -1,0 +1,53 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(move:*)",
+      "Bash(cp:*)",
+      "Bash(node --version:*)",
+      "Bash(npm --version)",
+      "Bash(npm init -y)",
+      "Bash(npm start)",
+      "WebFetch(domain:www.pexels.com)",
+      "WebFetch(domain:pixabay.com)",
+      "WebFetch(domain:code.claude.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:agentnativedev.medium.com)"
+    ],
+    "deny": [
+      "Bash(rm:*)",
+      "Bash(rm -rf:*)",
+      "Bash(del:*)",
+      "Bash(rmdir:*)",
+      "Bash(Remove-Item:*)",
+      "Read(**/.env*)",
+      "Read(**/.dev.vars*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(**/secrets/**)",
+      "Read(**/credentials/**)",
+      "Read(**/.aws/**)",
+      "Read(**/.ssh/**)",
+      "Read(**/config/database.yml)",
+      "Read(**/config/credentials.json)",
+      "Read(**/.npmrc)",
+      "Read(**/.pypirc)",
+      "Write(**/.env*)",
+      "Write(**/secrets/**)",
+      "Write(**/.ssh/**)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import pathlib; p=pathlib.Path.home()/'.claude'/'CLAUDE.md'; p.parent.mkdir(exist_ok=True); p.write_text(\\\"# CLAUDE.md（全プロジェクト共通ルール）\\\\n\\\\n## 作業ルール（AIへの指示）\\\\n\\\\n### 進め方の基本\\\\n\\\\n- 3ステップ以上または重要な判断を含む作業は、必ず tasks/todo.md にチェックリスト形式で計画を立ててから始める。実装前にオーナーに確認する。\\\\n- 何かおかしくなったら即座に止めて再計画する。押し切らない。\\\\n- すべての説明は日本語で、専門用語は平易な言い換えを先に置く。\\\\n- 完了前に自問する：「経験豊富な人が見てもOKと言えるか？」\\\\n\\\\n### 役割分担\\\\n\\\\n- 調査・探索・並列作業は別の担当に任せ、メインの作業メモを散らかさない。\\\\n- 担当1人につきタスク1つ。\\\\n\\\\n### 修正を受けたとき\\\\n\\\\n- tasks/lessons.md に学びと再発防止ルールを記録する。\\\\n- セッション開始時に関連する学びを見直す。\\\\n\\\\n### バグ対応\\\\n\\\\n- バグ報告時は確認なしに調査・修正に入る。一時しのぎ禁止。\\\\n\\\\n---\\\\n\\\\n## 安全ルール\\\\n\\\\n### 既存ファイルの上書き\\\\n\\\\n既存ファイルを編集・上書きする前に、必ず「〇〇を上書きしますが、よろしいですか？」と確認する。\\\\n\\\\n### 削除コマンド\\\\n\\\\nrm・del・rmdir などの削除系コマンドは原則実行しない。必要時は対象ファイル名と理由を明示して承認を得る。rm -rf はいかなる場合も実行しない。\\\\n\\\\n### パッケージ追加\\\\n\\\\npip install・npm install などの前に、「何をインストールするか・なぜ必要か・影響範囲」を説明して承認を得る。\\\\n\\\\n### 専門的なコマンド\\\\n\\\\n技術的・専門的なコマンドの前に、「何をするか・実行するとどうなるか・リスク」を日本語で説明し「実行してよいですか？」と確認する。\\\\n\\\")\"",
+            "statusMessage": "グローバルルールを適用中..."
+          }
+        ]
+      }
+    ]
+  }
+}
