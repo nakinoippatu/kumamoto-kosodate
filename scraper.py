@@ -974,7 +974,7 @@ def scrape_takuma(pdf_bytes: bytes) -> list[dict]:
 
 
 # ── 秋津児童館 ─────────────────────────────────────────────
-AKITSU_URL    = "https://www.city.kumamoto.jp/kiji00311960/index.html"
+AKITSU_URL    = "https://www.city.kumamoto.jp/higashi/kiji00311960/index.html"
 AKITSU_SOURCE = "秋津児童館"
 
 def scrape_akitsu(pdf_bytes: bytes) -> list[dict]:
@@ -1125,7 +1125,7 @@ def scrape_akitsu(pdf_bytes: bytes) -> list[dict]:
 
 
 # ── 五福児童室 ─────────────────────────────────────────────
-GOFUKU_URL    = "https://www.city.kumamoto.jp/kiji00003568/index.html"
+GOFUKU_URL    = "https://www.city.kumamoto.jp/kiji003568/index.html"
 GOFUKU_SOURCE = "五福児童室"
 
 def scrape_gofuku(pdf_bytes: bytes, manual_json_path: str | None = None) -> list[dict]:
@@ -1169,7 +1169,7 @@ def scrape_gofuku(pdf_bytes: bytes, manual_json_path: str | None = None) -> list
 
 
 # ── 天明児童室 ─────────────────────────────────────────────
-TENMEI_URL    = "https://www.city.kumamoto.jp/kiji00003855/index.html"
+TENMEI_URL    = "https://www.city.kumamoto.jp/kiji003855/index.html"
 TENMEI_SOURCE = "天明児童室"
 
 def scrape_tenmei(pdf_bytes: bytes) -> list[dict]:
@@ -1285,7 +1285,7 @@ def scrape_tenmei(pdf_bytes: bytes) -> list[dict]:
 
 
 # ── 大江児童室 ─────────────────────────────────────────────
-OOE_URL    = "https://www.city.kumamoto.jp/kiji00065744/index.html"
+OOE_URL    = "https://www.city.kumamoto.jp/kiji00365744/index.html"
 OOE_SOURCE = "大江児童室"
 
 def scrape_ooe(pdf_bytes: bytes) -> list[dict]:
@@ -1548,18 +1548,21 @@ HALL_CONFIGS = [
         "url":     KODA_URL,
         "scraper": scrape_koda,
         "pdf_url": None,
+        "keyword": "乳幼児",
     },
     {
         "source":  SEIBU_SOURCE,
         "url":     SEIBU_URL,
         "scraper": scrape_seibu,
         "pdf_url": None,
+        "keyword": "乳幼児",
     },
     {
         "source":  NISHIHARA_SOURCE,
         "url":     NISHIHARA_URL,
         "scraper": scrape_nishihara,
         "pdf_url": None,
+        "keyword": "だより",  # "乳幼児"不使用。先頭PDFはFAX用紙のためキーワード必須
     },
     # 花園児童館は2枚PDF構成のため scrape_all_halls での自動実行に対応しない
     # scrape_hanazono(pdf_front, pdf_back) を直接呼び出すこと
@@ -1568,36 +1571,42 @@ HALL_CONFIGS = [
         "url":     TAKUMA_URL,
         "scraper": scrape_takuma,
         "pdf_url": None,
+        "keyword": "乳幼児",
     },
     {
         "source":  AKITSU_SOURCE,
         "url":     AKITSU_URL,
         "scraper": scrape_akitsu,
         "pdf_url": None,
+        "keyword": "だより",  # ページに"乳幼児"表記なし
     },
     {
         "source":  GOFUKU_SOURCE,
         "url":     GOFUKU_URL,
         "scraper": scrape_gofuku,
         "pdf_url": None,
+        "keyword": "だより",
     },
     {
         "source":  TENMEI_SOURCE,
         "url":     TENMEI_URL,
         "scraper": scrape_tenmei,
         "pdf_url": None,
+        "keyword": "だより",
     },
     {
         "source":  OOE_SOURCE,
         "url":     OOE_URL,
         "scraper": scrape_ooe,
         "pdf_url": None,
+        "keyword": "だより",
     },
     {
         "source":  JONAN_SOURCE,
         "url":     JONAN_URL,
         "scraper": scrape_jonan,
         "pdf_url": None,
+        "keyword": "だより",
     },
 ]
 
@@ -1786,13 +1795,14 @@ def scrape_all_halls_adapted(pw_page=None) -> list[dict]:
             if "google" in page_url or "share.google" in page_url:
                 print(f"  {source}: Google Drive URL のため自動取得スキップ")
                 continue
+            keyword = cfg.get("keyword", "乳幼児")
             print(f"  {source}: PDFリンク取得中...")
-            pdf_url = _fetch_pdf_url_from_page(pw_page, page_url, keyword="乳幼児")
+            pdf_url = _fetch_pdf_url_from_page(pw_page, page_url, keyword=keyword)
             if not pdf_url:
                 print(f"  {source}: PDFリンクが見つかりませんでした")
                 continue
             print(f"  {source}: PDF取得中 {pdf_url}")
-            pdf_bytes = _fetch_pdf_bytes(pdf_url)
+            pdf_bytes = _fetch_pdf_bytes(pdf_url, referer=page_url)
             if pdf_bytes:
                 pdf_map[source] = pdf_bytes
                 print(f"  {source}: ✅ PDF取得成功 ({len(pdf_bytes):,} bytes)")
