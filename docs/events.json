@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-16T10:21:37.439786",
-  "count": 111,
+  "updated_at": "2026-05-16T22:37:52.471103",
+  "count": 110,
   "events": [
     {
       "title": "プレパパママ教室",
@@ -84,20 +84,6 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1943.html",
       "source": "子育てナビ",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★マリア先生のチャレンジEnjoy English(ベビー)　5月16日",
-      "date_raw": "2026年05月16日",
-      "date_iso": "2026-05-16",
-      "time_raw": "09:15〜10:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7982",
-      "source": "こども文化会館",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -1039,20 +1025,6 @@
       "body_preview": ""
     },
     {
-      "title": "★歯と口の健康・歯磨き教室",
-      "date_raw": "5月28日（木 ）",
-      "date_iso": "2026-05-28",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "5月7日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1520281",
-      "category": "健康・医療",
-      "target_age": "0歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "あつまれ！やんちゃ隊「親子で楽しく体を動かそう♪」",
       "date_raw": "2026年05月28日",
       "date_iso": "2026-05-28",
@@ -1064,6 +1036,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8074",
       "source": "こども文化会館",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★歯と口の健康・歯磨き教室",
+      "date_raw": "5月28日（木 ）",
+      "date_iso": "2026-05-28",
+      "time_raw": "10:00〜11:30",
+      "location": "総合子育て支援センター",
+      "apply_info": "5月7日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1520281",
+      "category": "健康・医療",
+      "target_age": "0歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
