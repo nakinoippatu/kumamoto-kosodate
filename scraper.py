@@ -1538,6 +1538,153 @@ def scrape_jonan(pdf_bytes: bytes) -> list[dict]:
     events.sort(key=lambda x: x["date"])
     logger.info(f"{JONAN_SOURCE}: {len(events)} 件取得")
     return events
+
+
+# ── 東部児童館 ─────────────────────────────────────────────
+TOBU_URL    = "https://www.city.kumamoto.jp/kiji0031635/index.html"
+TOBU_SOURCE = "東部児童館"
+
+def scrape_tobu(pdf_bytes: bytes) -> list[dict]:
+    """
+    東部児童館の乳幼児向けPDFを解析してイベントを返す。
+
+    PDF構造: 1ページ、月〜日の7列カレンダー形式（推定）。
+    乳幼児版と小学生版の2種類があり、乳幼児版を取得する。
+    """
+    with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
+        page     = pdf.pages[0]
+        tables   = page.extract_tables()
+        text     = page.extract_text() or ""
+        metadata = pdf.metadata or {}
+
+    if not tables:
+        logger.warning(f"{TOBU_SOURCE}: テーブルが見つかりません")
+        return []
+
+    year, month = _get_year_month_from_metadata(
+        metadata, text, datetime.now().year, datetime.now().month
+    )
+    logger.info(f"{TOBU_SOURCE}: {year}年{month}月 解析開始")
+
+    cal_table = max(tables, key=lambda t: len(t) * len(t[0]) if t else 0)
+    events = _parse_calendar_table(
+        cal_table, year, month,
+        source=TOBU_SOURCE,
+        url=TOBU_URL,
+    )
+
+    logger.info(f"{TOBU_SOURCE}: {len(events)} 件取得")
+    return events
+
+
+# ── 南部児童館 ─────────────────────────────────────────────
+NANBU_URL    = "https://www.city.kumamoto.jp/kiji00361599/index.html"
+NANBU_SOURCE = "南部児童館"
+
+def scrape_nanbu(pdf_bytes: bytes) -> list[dict]:
+    """
+    南部児童館のPDFを解析してイベントを返す。
+
+    大容量ファイル（6MB超）のためスキャンPDFの可能性あり。
+    テーブル抽出不可の場合は空リストを返す。
+    """
+    with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
+        page     = pdf.pages[0]
+        tables   = page.extract_tables()
+        text     = page.extract_text() or ""
+        metadata = pdf.metadata or {}
+
+    if not tables:
+        logger.warning(f"{NANBU_SOURCE}: テーブルなし（スキャンPDFの可能性）")
+        return []
+
+    year, month = _get_year_month_from_metadata(
+        metadata, text, datetime.now().year, datetime.now().month
+    )
+    logger.info(f"{NANBU_SOURCE}: {year}年{month}月 解析開始")
+
+    cal_table = max(tables, key=lambda t: len(t) * len(t[0]) if t else 0)
+    events = _parse_calendar_table(
+        cal_table, year, month,
+        source=NANBU_SOURCE,
+        url=NANBU_URL,
+    )
+
+    logger.info(f"{NANBU_SOURCE}: {len(events)} 件取得")
+    return events
+
+
+# ── 清水児童館 ─────────────────────────────────────────────
+SHIMIZU_URL    = "https://www.city.kumamoto.jp/kita/kiji00310244/index.html"
+SHIMIZU_SOURCE = "清水児童館"
+
+def scrape_shimizu(pdf_bytes: bytes) -> list[dict]:
+    """
+    清水児童館の乳幼児版PDFを解析してイベントを返す。
+
+    PDF構造: Excel由来の表形式（1ページ）。
+    乳幼児版と小学校版の2種類があり、乳幼児版を取得する。
+    """
+    with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
+        page     = pdf.pages[0]
+        tables   = page.extract_tables()
+        text     = page.extract_text() or ""
+        metadata = pdf.metadata or {}
+
+    if not tables:
+        logger.warning(f"{SHIMIZU_SOURCE}: テーブルが見つかりません")
+        return []
+
+    year, month = _get_year_month_from_metadata(
+        metadata, text, datetime.now().year, datetime.now().month
+    )
+    logger.info(f"{SHIMIZU_SOURCE}: {year}年{month}月 解析開始")
+
+    cal_table = max(tables, key=lambda t: len(t) * len(t[0]) if t else 0)
+    events = _parse_calendar_table(
+        cal_table, year, month,
+        source=SHIMIZU_SOURCE,
+        url=SHIMIZU_URL,
+    )
+
+    logger.info(f"{SHIMIZU_SOURCE}: {len(events)} 件取得")
+    return events
+
+
+# ── 龍田児童館 ─────────────────────────────────────────────
+# 市公式ページ(kiji0031633)にはアクセスマップのみ掲載。
+# おたよりPDFが追加された場合に備えてスタブを用意。
+TATSUDA_URL    = "https://www.city.kumamoto.jp/kiji0031633/index.html"
+TATSUDA_SOURCE = "龍田児童館"
+
+def scrape_tatsuda(pdf_bytes: bytes) -> list[dict]:
+    """龍田児童館のPDFを解析してイベントを返す。"""
+    with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
+        page     = pdf.pages[0]
+        tables   = page.extract_tables()
+        text     = page.extract_text() or ""
+        metadata = pdf.metadata or {}
+
+    if not tables:
+        logger.warning(f"{TATSUDA_SOURCE}: テーブルが見つかりません")
+        return []
+
+    year, month = _get_year_month_from_metadata(
+        metadata, text, datetime.now().year, datetime.now().month
+    )
+    logger.info(f"{TATSUDA_SOURCE}: {year}年{month}月 解析開始")
+
+    cal_table = max(tables, key=lambda t: len(t) * len(t[0]) if t else 0)
+    events = _parse_calendar_table(
+        cal_table, year, month,
+        source=TATSUDA_SOURCE,
+        url=TATSUDA_URL,
+    )
+
+    logger.info(f"{TATSUDA_SOURCE}: {len(events)} 件取得")
+    return events
+
+
 # ════════════════════════════════════════════════════════
 
 # 各施設の設定: (source名, URL, scraper関数)
@@ -1605,6 +1752,34 @@ HALL_CONFIGS = [
         "source":  JONAN_SOURCE,
         "url":     JONAN_URL,
         "scraper": scrape_jonan,
+        "pdf_url": None,
+        "keyword": "だより",
+    },
+    {
+        "source":  TOBU_SOURCE,
+        "url":     TOBU_URL,
+        "scraper": scrape_tobu,
+        "pdf_url": None,
+        "keyword": "乳幼児",
+    },
+    {
+        "source":  NANBU_SOURCE,
+        "url":     NANBU_URL,
+        "scraper": scrape_nanbu,
+        "pdf_url": None,
+        "keyword": "だより",
+    },
+    {
+        "source":  SHIMIZU_SOURCE,
+        "url":     SHIMIZU_URL,
+        "scraper": scrape_shimizu,
+        "pdf_url": None,
+        "keyword": "乳幼児",
+    },
+    {
+        "source":  TATSUDA_SOURCE,
+        "url":     TATSUDA_URL,
+        "scraper": scrape_tatsuda,
         "pdf_url": None,
         "keyword": "だより",
     },
