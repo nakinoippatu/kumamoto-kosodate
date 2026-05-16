@@ -1169,7 +1169,7 @@ def scrape_gofuku(pdf_bytes: bytes, manual_json_path: str | None = None) -> list
 
 
 # ── 天明児童室 ─────────────────────────────────────────────
-TENMEI_URL    = "https://www.city.kumamoto.jp/kiji003855/index.html"
+TENMEI_URL    = "https://www.city.kumamoto.jp/minami/kiji003855/index.html"
 TENMEI_SOURCE = "天明児童室"
 
 def scrape_tenmei(pdf_bytes: bytes) -> list[dict]:
