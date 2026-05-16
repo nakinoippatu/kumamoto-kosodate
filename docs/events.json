@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-15T22:45:57.174398",
-  "count": 168,
+  "updated_at": "2026-05-16T00:30:42.523586",
+  "count": 206,
   "events": [
     {
       "title": "★カレンダー作り",
@@ -129,6 +129,20 @@
       "body_preview": ""
     },
     {
+      "title": "休 館",
+      "date_raw": "2026-05-01",
+      "date_iso": "2026-05-01",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "あそびの 広場",
       "date_raw": "2026年5月1日",
       "date_iso": "2026-05-01",
@@ -143,6 +157,34 @@
       "body_preview": ""
     },
     {
+      "title": "自由あそび",
+      "date_raw": "2026-05-02",
+      "date_iso": "2026-05-02",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "自由あそび",
+      "date_raw": "2026-05-03",
+      "date_iso": "2026-05-03",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "憲法記念日",
       "date_raw": "2026年5月3日",
       "date_iso": "2026-05-03",
@@ -153,6 +195,20 @@
       "target_age": "指定なし",
       "url": "https://youikuen.com/support/",
       "source": "だいいち子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "朝の活動 しゃぼん玉あそび",
+      "date_raw": "2026-05-04",
+      "date_iso": "2026-05-04",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -339,6 +395,20 @@
       "body_preview": ""
     },
     {
+      "title": "親子トランポリン",
+      "date_raw": "2026-05-05",
+      "date_iso": "2026-05-05",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "こどもの日",
       "date_raw": "2026年5月5日",
       "date_iso": "2026-05-05",
@@ -423,6 +493,20 @@
       "body_preview": ""
     },
     {
+      "title": "自由あそび",
+      "date_raw": "2026-05-06",
+      "date_iso": "2026-05-06",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "お話会 10:00～",
       "date_raw": "2026年5月6日",
       "date_iso": "2026-05-06",
@@ -461,6 +545,20 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "自由あそび",
+      "date_raw": "2026-05-07",
+      "date_iso": "2026-05-07",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -563,6 +661,20 @@
       "body_preview": ""
     },
     {
+      "title": "休 館",
+      "date_raw": "2026-05-08",
+      "date_iso": "2026-05-08",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "ボールプール",
       "date_raw": "2026年5月8日",
       "date_iso": "2026-05-08",
@@ -619,6 +731,20 @@
       "body_preview": ""
     },
     {
+      "title": "自由あそび",
+      "date_raw": "2026-05-09",
+      "date_iso": "2026-05-09",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "みどりの日",
       "date_raw": "2026年5月9日",
       "date_iso": "2026-05-09",
@@ -661,6 +787,20 @@
       "body_preview": ""
     },
     {
+      "title": "朝の活動【予約制】 小麦粉ねんどあそび",
+      "date_raw": "2026-05-10",
+      "date_iso": "2026-05-10",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "お休み",
       "date_raw": "2026年5月10日",
       "date_iso": "2026-05-10",
@@ -671,6 +811,20 @@
       "target_age": "指定なし",
       "url": "https://youikuen.com/support/",
       "source": "だいいち子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "のりもので あそぼう！",
+      "date_raw": "2026-05-11",
+      "date_iso": "2026-05-11",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -741,6 +895,20 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "朝の活動 七夕かざり製作",
+      "date_raw": "2026-05-12",
+      "date_iso": "2026-05-12",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -853,6 +1021,20 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1943.html",
       "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "自由あそび",
+      "date_raw": "2026-05-13",
+      "date_iso": "2026-05-13",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -997,6 +1179,20 @@
       "body_preview": ""
     },
     {
+      "title": "自由あそび",
+      "date_raw": "2026-05-14",
+      "date_iso": "2026-05-14",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "お話会 10:00～",
       "date_raw": "2026年5月14日",
       "date_iso": "2026-05-14",
@@ -1063,6 +1259,20 @@
       "target_age": "0歳",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "休 館",
+      "date_raw": "2026-05-15",
+      "date_iso": "2026-05-15",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1137,6 +1347,20 @@
       "body_preview": ""
     },
     {
+      "title": "自由あそび",
+      "date_raw": "2026-05-16",
+      "date_iso": "2026-05-16",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "パパビクス 詳細はHP",
       "date_raw": "2026年5月16日",
       "date_iso": "2026-05-16",
@@ -1207,6 +1431,20 @@
       "body_preview": ""
     },
     {
+      "title": "自由あそび",
+      "date_raw": "2026-05-17",
+      "date_iso": "2026-05-17",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "赤ちゃんの向き癖、頭の形相談会😊",
       "date_raw": "2026年5月18日",
       "date_iso": "2026-05-18",
@@ -1217,6 +1455,20 @@
       "target_age": "0歳",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1657.html",
       "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "朝の活動 ふれあいあそび",
+      "date_raw": "2026-05-18",
+      "date_iso": "2026-05-18",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1315,6 +1567,20 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "おはなし会 ボランティアの方々 （10時30分～）",
+      "date_raw": "2026-05-19",
+      "date_iso": "2026-05-19",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1431,6 +1697,20 @@
       "body_preview": ""
     },
     {
+      "title": "自由あそび",
+      "date_raw": "2026-05-20",
+      "date_iso": "2026-05-20",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "歩いてからの 体づくり",
       "date_raw": "2026年5月20日",
       "date_iso": "2026-05-20",
@@ -1497,6 +1777,20 @@
       "target_age": "3〜5歳",
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8083",
       "source": "こども文化会館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "自由あそび",
+      "date_raw": "2026-05-21",
+      "date_iso": "2026-05-21",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1599,6 +1893,20 @@
       "body_preview": ""
     },
     {
+      "title": "休 館",
+      "date_raw": "2026-05-22",
+      "date_iso": "2026-05-22",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "手作りおもちゃと 子育ての知恵",
       "date_raw": "2026年5月22日",
       "date_iso": "2026-05-22",
@@ -1697,6 +2005,20 @@
       "body_preview": ""
     },
     {
+      "title": "自由あそび",
+      "date_raw": "2026-05-23",
+      "date_iso": "2026-05-23",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "自由遊び",
       "date_raw": "2026年5月23日",
       "date_iso": "2026-05-23",
@@ -1736,6 +2058,34 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8087",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "朝の活動 運動あそび",
+      "date_raw": "2026-05-24",
+      "date_iso": "2026-05-24",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "えほん読み聞かせ",
+      "date_raw": "2026-05-25",
+      "date_iso": "2026-05-25",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1823,6 +2173,20 @@
       "body_preview": ""
     },
     {
+      "title": "朝の活動 7月カレンダー製作",
+      "date_raw": "2026-05-26",
+      "date_iso": "2026-05-26",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "6月の カレンダー作り ①9時30分 ②11時30分～12時30分 ③14時30分～15時50分 ※おもちゃの貸し出しは、各枠の予約された時間のみ可能です。",
       "date_raw": "2026年5月26日",
       "date_iso": "2026-05-26",
@@ -1861,6 +2225,20 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "自由あそび",
+      "date_raw": "2026-05-27",
+      "date_iso": "2026-05-27",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -2005,6 +2383,20 @@
       "body_preview": ""
     },
     {
+      "title": "自由あそび",
+      "date_raw": "2026-05-28",
+      "date_iso": "2026-05-28",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "歯と口の健康 歯磨き教室",
       "date_raw": "2026年5月28日",
       "date_iso": "2026-05-28",
@@ -2071,6 +2463,20 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "休 館",
+      "date_raw": "2026-05-29",
+      "date_iso": "2026-05-29",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -2187,6 +2593,20 @@
       "body_preview": ""
     },
     {
+      "title": "ベビーマッサージ",
+      "date_raw": "2026-05-30",
+      "date_iso": "2026-05-30",
+      "time_raw": "10:30〜",
+      "location": "託麻児童館",
+      "apply_info": "",
+      "category": "産前・産後",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
+      "source": "託麻児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "16:00 です。",
       "date_raw": "2026年5月30日",
       "date_iso": "2026-05-30",
@@ -2243,6 +2663,20 @@
       "body_preview": ""
     },
     {
+      "title": "乳幼児 歯みがき教室",
+      "date_raw": "2026-06-05",
+      "date_iso": "2026-06-05",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★乳幼児 歯みがき教室",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "★みつばち　誕生会",
       "date_raw": "2026年06月07日",
       "date_iso": "2026-06-07",
@@ -2254,6 +2688,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8090",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "リズム あそび",
+      "date_raw": "2026-06-10",
+      "date_iso": "2026-06-10",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★リズム あそび",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -2285,6 +2733,48 @@
       "body_preview": ""
     },
     {
+      "title": "七夕かざり作り",
+      "date_raw": "2026-06-12",
+      "date_iso": "2026-06-12",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★七夕かざり作り （先着10組）",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "サーキット あそび",
+      "date_raw": "2026-06-17",
+      "date_iso": "2026-06-17",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★サーキット あそび",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "ベビー マッサージ",
+      "date_raw": "2026-06-19",
+      "date_iso": "2026-06-19",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★ベビー マッサージ",
+      "category": "産前・産後",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
       "date_raw": "2026年06月20日",
       "date_iso": "2026-06-20",
@@ -2310,6 +2800,48 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7922",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "6月生まれ の誕生会",
+      "date_raw": "2026-06-24",
+      "date_iso": "2026-06-24",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★6月生まれ の誕生会",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "身体測定",
+      "date_raw": "2026-06-26",
+      "date_iso": "2026-06-26",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★身体測定 （11時半まで）",
+      "category": "健康・医療",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "七夕ファミリー コンサート",
+      "date_raw": "2026-06-27",
+      "date_iso": "2026-06-27",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★七夕ファミリー コンサート",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
