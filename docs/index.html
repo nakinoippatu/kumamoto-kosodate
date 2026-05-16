@@ -291,6 +291,15 @@
     font-weight: 500 !important;
   }
 
+  /* FullCalendarリストビュー: タイトルを1行に制限 */
+  .fc .fc-list-event-title a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 60vw;
+  }
+
   /* ── リストビュー ── */
   .event-grid {
     display: grid;
