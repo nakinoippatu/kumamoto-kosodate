@@ -143,7 +143,7 @@ def _is_real_kumamoto_pdf(href: str, base_url: str = "https://www.city.kumamoto.
 PDF_MIN_BYTES = 5_000  # これ未満はPDFとして扱わない（HTML小ページやエラーページ対策）
 
 
-def _fetch_pdf_bytes(url: str, retries: int = 3) -> bytes | None:
+def _fetch_pdf_bytes(url: str, retries: int = 3, referer: str | None = None) -> bytes | None:
     """
     URLからPDFバイト列を取得（500/503エラー時は指数バックオフでリトライ）。
 
@@ -152,9 +152,10 @@ def _fetch_pdf_bytes(url: str, retries: int = 3) -> bytes | None:
     - 先頭5バイトが b"%PDF-" でなければ拒否
     - サイズが PDF_MIN_BYTES 未満なら拒否
     """
+    headers = {"Referer": referer} if referer else {}
     for attempt in range(1, retries + 1):
         try:
-            resp = requests.get(url, timeout=30)
+            resp = requests.get(url, headers=headers, timeout=30)
             resp.raise_for_status()
 
             # Content-Type チェック（HTMLを掴んだ場合の早期検出）
@@ -1802,8 +1803,8 @@ def scrape_all_halls_adapted(pw_page=None) -> list[dict]:
         print(f"  {HANAZONO_SOURCE}: PDFリンク取得中...")
         hanazono_pdf_urls = _fetch_pdf_urls_from_page(pw_page, HANAZONO_URL, count=2)
         if len(hanazono_pdf_urls) >= 2:
-            pdf_front = _fetch_pdf_bytes(hanazono_pdf_urls[0])
-            pdf_back  = _fetch_pdf_bytes(hanazono_pdf_urls[1])
+            pdf_front = _fetch_pdf_bytes(hanazono_pdf_urls[0], referer=HANAZONO_URL)
+            pdf_back  = _fetch_pdf_bytes(hanazono_pdf_urls[1], referer=HANAZONO_URL)
             if pdf_front and pdf_back:
                 print(f"  {HANAZONO_SOURCE}: ✅ PDF2枚取得成功 (表面:{len(pdf_front):,} bytes / 裏面:{len(pdf_back):,} bytes)")
                 try:
