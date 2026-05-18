@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-17T22:44:47.270255",
-  "count": 119,
+  "updated_at": "2026-05-18T22:51:28.805352",
+  "count": 112,
   "events": [
     {
       "title": "プレパパママ教室",
@@ -41,48 +41,6 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1881.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "手形で壁面飾りづくり",
-      "date_raw": "2026-05-01",
-      "date_iso": "2026-05-01",
-      "time_raw": "10:30〜",
-      "location": "花園児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
-      "source": "花園児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "赤ちゃんあつまれ！～足形アート～",
-      "date_raw": "2026-05-08",
-      "date_iso": "2026-05-08",
-      "time_raw": "10:30〜11:15",
-      "location": "花園児童館",
-      "apply_info": "生後 11か月までのお子さんとその保護者 10組（先着順）",
-      "category": "健康・医療",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
-      "source": "花園児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "手形で母の日のプレゼントづくり",
-      "date_raw": "2026-05-09",
-      "date_iso": "2026-05-09",
-      "time_raw": "10:30〜",
-      "location": "花園児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
-      "source": "花園児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -129,34 +87,6 @@
       "body_preview": ""
     },
     {
-      "title": "カラフル小麦粉ねんどあそび",
-      "date_raw": "2026-05-14",
-      "date_iso": "2026-05-14",
-      "time_raw": "10:30〜",
-      "location": "花園児童館",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
-      "source": "花園児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "トンネルをくぐってみよう",
-      "date_raw": "2026-05-15",
-      "date_iso": "2026-05-15",
-      "time_raw": "10:30〜",
-      "location": "花園児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
-      "source": "花園児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "小学生「レゴ＋プログラミング」初心者ロボコン体験会＆講習会",
       "date_raw": "2026年5月17日",
       "date_iso": "2026-05-17",
@@ -166,34 +96,6 @@
       "category": "その他",
       "target_age": "小学生以上",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1606.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "自由あそび",
-      "date_raw": "2026-05-17",
-      "date_iso": "2026-05-17",
-      "time_raw": "10:30〜",
-      "location": "託麻児童館",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031634/index.html",
-      "source": "託麻児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "赤ちゃんの向き癖、頭の形相談会😊",
-      "date_raw": "2026年5月18日",
-      "date_iso": "2026-05-18",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "発達・育児相談",
-      "target_age": "0歳",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1657.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -1095,20 +997,6 @@
       "body_preview": ""
     },
     {
-      "title": "★歯と口の健康・歯磨き教室",
-      "date_raw": "5月28日（木 ）",
-      "date_iso": "2026-05-28",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "5月7日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1520281",
-      "category": "健康・医療",
-      "target_age": "0歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "あつまれ！やんちゃ隊「親子で楽しく体を動かそう♪」",
       "date_raw": "2026年05月28日",
       "date_iso": "2026-05-28",
@@ -1120,6 +1008,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8074",
       "source": "こども文化会館",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★歯と口の健康・歯磨き教室",
+      "date_raw": "5月28日（木 ）",
+      "date_iso": "2026-05-28",
+      "time_raw": "10:00〜11:30",
+      "location": "総合子育て支援センター",
+      "apply_info": "5月7日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1520281",
+      "category": "健康・医療",
+      "target_age": "0歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
