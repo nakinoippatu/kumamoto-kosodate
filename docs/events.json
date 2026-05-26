@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-25T22:52:37.393027",
-  "count": 67,
+  "updated_at": "2026-05-26T23:02:26.611912",
+  "count": 62,
   "events": [
     {
       "title": "プレパパママ教室",
@@ -97,76 +97,6 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1788.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★歩いてからの体づくり",
-      "date_raw": "5月20日（水 ）",
-      "date_iso": "2026-05-20",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "5月7日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1520199",
-      "category": "その他",
-      "target_age": "1〜2歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
-      "title": "下記のイベントには予約が必要です。 来所時にご予約ください。 ◎7日・14日・19日・27日 ・10:00から20分程度、ボランティアの方が 絵本の読み聞かせやふれあい遊びをしてくれます。 ◎22日「誕生会」 ・5月生まれのお友だちの誕生会をします。 ◎21日「身体測定」 ・10:00からは、1歳以上のお子さんを、 14:00からは、赤ちゃん対象で測定します。",
-      "date_raw": "2026年5月25日",
-      "date_iso": "2026-05-25",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市中央区白山（白山保育園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "0歳",
-      "url": "https://www.city.kumamoto.jp/kiji00364625/index.html",
-      "source": "白山子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "R8.5月～10月まで、京塚保育園のトイレ洋式化の工事に伴い、支援センターが0歳児保育室に移動します。 部屋がせまく、且つ保育室と同室になるため、利用時間・受け入れられる組数に限りがあります。 支援センターの部屋が元の場所に戻るまで、ご理解ご協力のほどを、どうぞよろしくお願いいたします。 （出入り口などの場所の詳細は、3枚目のスタッフだよりをご覧ください） 予約時間は毎日3枠、受け入れ組数などは以下のようになります。 【午前の部】 【午後の部】 【今月のイベント】 ★1・8日（金）「お散歩に行こう」 近くの健軍川に飾ってあるたくさんのこいのぼりを見に行き ましょう。※帽子・水分補給用の飲み物を持ってきてください。 ★13（水）、19（火）、21日（木）、26日（火） 「6月のカレンダー作り」※材料がなくなり次第終了です。 足形スタンプでカエルの制作をします。 ※絵の具を使うので、汚れても大丈夫な洋服でお越しください！ ①と③枠のみ予約の受付をします。 ★22日（金）育児講座「ベビーダンス」（3ヵ月～1歳対象） 親子のスキンシップを図りながら、リフレッシュしましょう！ 抱っこひもの使い方も教えていただきます。 場所:尾ノ上地域コミュニティセンター（錦ヶ丘公園内です） 時間:10:00～11:30（10組限定） 〇動きやすい服装で、いつも使っている抱っこひもと、水分補給用 の飲みものを持ってきてください。※4/28（火）～予約開始です ※コミセン駐車場は駐車台数に制限があります。",
-      "date_raw": "2026年5月25日",
-      "date_iso": "2026-05-25",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市東区尾ノ上（京塚保育園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "0歳",
-      "url": "https://www.city.kumamoto.jp/kiji00364621/index.html",
-      "source": "京塚子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "自由遊び ◎利用の仕方 イベント以外は予約不要 イベントの日は電話または来所時に予約をお願いします。 予約優先とさせて頂きます。カレンダーの★マークの日 です。午後からの予約は不要です。 利用時間 ※先月より駐車場が変更になりました。昨年7月まで利用し ていました、園舎の道挟んだ西側になります。初めてご利 用される方はお電話ください。駐車場の説明をさせていた だきます。また、駐車場は、保育園の送迎等のため9:30～ 16:00までのご利用でお願いします。 ※トイレの改修工事が始まる関係で、センター室が隣の部屋 に引っ越しました。ご不便おかけします。詳しくはスタッ フだよりをご覧ください。 ◎状況により内容が変更となる場合があります。",
-      "date_raw": "2026年5月25日",
-      "date_iso": "2026-05-25",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市西区池上（池上保育園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
-      "source": "池上子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "あそびの 広場",
-      "date_raw": "2026年5月25日",
-      "date_iso": "2026-05-25",
-      "time_raw": "10:00〜",
-      "location": "熊本市南区城南町（小木こども園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://ogihoiku.com/page-76/",
-      "source": "城南子育て支援センター",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -353,20 +283,6 @@
       "body_preview": ""
     },
     {
-      "title": "★歯と口の健康・歯磨き教室",
-      "date_raw": "5月28日（木 ）",
-      "date_iso": "2026-05-28",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "5月7日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1520281",
-      "category": "健康・医療",
-      "target_age": "0歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "あつまれ！やんちゃ隊「親子で楽しく体を動かそう♪」",
       "date_raw": "2026年05月28日",
       "date_iso": "2026-05-28",
@@ -378,6 +294,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8074",
       "source": "こども文化会館",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★歯と口の健康・歯磨き教室",
+      "date_raw": "5月28日（木 ）",
+      "date_iso": "2026-05-28",
+      "time_raw": "10:00〜11:30",
+      "location": "総合子育て支援センター",
+      "apply_info": "5月7日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1520281",
+      "category": "健康・医療",
+      "target_age": "0歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
