@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-26T23:02:26.611912",
-  "count": 62,
+  "updated_at": "2026-05-27T23:11:21.106118",
+  "count": 60,
   "events": [
     {
       "title": "プレパパママ教室",
@@ -45,34 +45,6 @@
       "body_preview": ""
     },
     {
-      "title": "Risa先生と親子でフォニックス英会話（5月）",
-      "date_raw": "2026年5月13日",
-      "date_iso": "2026-05-13",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1955.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "子どもの心相談室",
-      "date_raw": "2026年5月13日",
-      "date_iso": "2026-05-13",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "発達・育児相談",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1943.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "小学生「レゴ＋プログラミング」初心者ロボコン体験会＆講習会",
       "date_raw": "2026年5月17日",
       "date_iso": "2026-05-17",
@@ -110,62 +82,6 @@
       "category": "その他",
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1199.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "6月の カレンダー作り ①9時30分 ②11時30分～12時30分 ③14時30分～15時50分 ※おもちゃの貸し出しは、各枠の予約された時間のみ可能です。",
-      "date_raw": "2026年5月26日",
-      "date_iso": "2026-05-26",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市東区尾ノ上（京塚保育園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364621/index.html",
-      "source": "京塚子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "自由遊び ～お知らせとお願い～ で、ご利用頂けます。 午前 9:15～12:00 午後 13:15～16:00",
-      "date_raw": "2026年5月26日",
-      "date_iso": "2026-05-26",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市西区池上（池上保育園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
-      "source": "池上子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "あかちゃんと いっしょふれあ いサロン",
-      "date_raw": "2026年5月26日",
-      "date_iso": "2026-05-26",
-      "time_raw": "10:00〜",
-      "location": "熊本市南区城南町（小木こども園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://ogihoiku.com/page-76/",
-      "source": "城南子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "5月27日（水曜日）追加開催！【1歳児の遊びには秘密がある～保育者伝承～】",
-      "date_raw": "2026年5月27日",
-      "date_iso": "2026-05-27",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "1〜2歳",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1263.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -535,6 +451,20 @@
       "body_preview": ""
     },
     {
+      "title": "子育て中のママのためのお金の教室",
+      "date_raw": "2026年6月2日",
+      "date_iso": "2026-06-02",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "生活支援",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1589.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "6月2日（火曜日）「よんで☺よんでのかい」",
       "date_raw": "2026年6月2日",
       "date_iso": "2026-06-02",
@@ -602,6 +532,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8090",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "親子でアイスクリームとゼリーを作ろう！",
+      "date_raw": "2026年6月9日",
+      "date_iso": "2026-06-09",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1911.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -703,6 +647,20 @@
       "body_preview": ""
     },
     {
+      "title": "6月17日（水曜日）～私らしく はたらく～はあもにい「働き方相談所」",
+      "date_raw": "2026年6月17日",
+      "date_iso": "2026-06-17",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "発達・育児相談",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1934.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "サーキット あそび",
       "date_raw": "2026-06-17",
       "date_iso": "2026-06-17",
@@ -713,6 +671,20 @@
       "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
       "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "ボールプールで遊ぼう",
+      "date_raw": "2026年06月18日",
+      "date_iso": "2026-06-18",
+      "time_raw": "11:30〜11:45",
+      "location": "熊本市こども文化会館",
+      "apply_info": "当日申込可",
+      "category": "その他",
+      "target_age": "3〜5歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8103",
+      "source": "こども文化会館",
       "needs_reservation": false,
       "body_preview": ""
     },
