@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-28T23:08:52.871798",
-  "count": 177,
+  "updated_at": "2026-05-29T23:05:52.372314",
+  "count": 174,
   "events": [
     {
       "title": "★カレンダー作り",
@@ -180,20 +180,6 @@
       "category": "その他",
       "target_age": "0歳",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1948.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "5月29日（金曜日）【子どもの脳みそに届く声掛けスキル～子育てコーチング】",
-      "date_raw": "2026年5月29日",
-      "date_iso": "2026-05-29",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1956.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -1277,20 +1263,6 @@
       "body_preview": ""
     },
     {
-      "title": "★骨盤底筋トレーニング",
-      "date_raw": "6月16日（火 ）",
-      "date_iso": "2026-06-16",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "6月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1541424",
-      "category": "産前・産後",
-      "target_age": "3〜5歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "骨盤底筋 トレーニング",
       "date_raw": "2026年6月16日",
       "date_iso": "2026-06-16",
@@ -1918,20 +1890,6 @@
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★楽しい離乳食教室",
-      "date_raw": "6月23日（火 ）",
-      "date_iso": "2026-06-23",
-      "time_raw": "10:00〜11:30",
-      "location": "総合子育て支援センター",
-      "apply_info": "6月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1541542",
-      "category": "食育・栄養",
-      "target_age": "0歳",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
