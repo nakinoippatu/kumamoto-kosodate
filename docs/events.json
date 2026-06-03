@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-02T23:28:43.926703",
-  "count": 159,
+  "updated_at": "2026-06-03T23:28:02.431344",
+  "count": 166,
   "events": [
     {
       "title": "プレパパママ教室",
@@ -83,48 +83,6 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1589.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "しゃぼん玉遊び （午前中）",
-      "date_raw": "2026年6月2日",
-      "date_iso": "2026-06-02",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市西区池上（池上保育園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
-      "source": "池上子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "シール あそび",
-      "date_raw": "2026年6月2日",
-      "date_iso": "2026-06-02",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市南区富合町（第一幼稚園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://youikuen.com/support/",
-      "source": "だいいち子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "あそびの 広場",
-      "date_raw": "2026年6月2日",
-      "date_iso": "2026-06-02",
-      "time_raw": "10:00〜",
-      "location": "熊本市南区城南町（小木こども園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://ogihoiku.com/page-76/",
-      "source": "城南子育て支援センター",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -363,6 +321,20 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "レーザー加工ものづくり体験会を実施します✨🛠️",
+      "date_raw": "2026年6月6日",
+      "date_iso": "2026-06-06",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1263.html",
+      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -801,6 +773,34 @@
       "body_preview": ""
     },
     {
+      "title": "6月12日開催『0歳からの体軸セラピーとリズム運動遊び』~五感をはぐくむ脳育遊び～",
+      "date_raw": "2026年6月12日",
+      "date_iso": "2026-06-12",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "0歳",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1370.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "Risa先生と親子でフォニックス英会話（6月）",
+      "date_raw": "2026年6月12日",
+      "date_iso": "2026-06-12",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1657.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "★ベビー服リメイク　6月",
       "date_raw": "2026年06月12日",
       "date_iso": "2026-06-12",
@@ -1161,6 +1161,20 @@
       "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "プレママ＆新米ママとベビーの憩いの広場(6月)",
+      "date_raw": "2026年6月17日",
+      "date_iso": "2026-06-17",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "0歳",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1967.html",
+      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1767,6 +1781,20 @@
       "body_preview": ""
     },
     {
+      "title": "子育てサポートセミナー　開催！！【第1回目】",
+      "date_raw": "2026年6月24日",
+      "date_iso": "2026-06-24",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1740.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "★赤ちゃんとスキンシップ　ベビーサイン　6月24日",
       "date_raw": "2026年06月24日",
       "date_iso": "2026-06-24",
@@ -2117,6 +2145,20 @@
       "body_preview": ""
     },
     {
+      "title": "SOMPOケア そんぽの家清水麻生田 子ども食堂  6月27日",
+      "date_raw": "2026年6月27日",
+      "date_iso": "2026-06-27",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1956.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "絵画・造形クラブ ＜小学生対象＞",
       "date_raw": "2026-06-27",
       "date_iso": "2026-06-27",
@@ -2159,6 +2201,20 @@
       "body_preview": ""
     },
     {
+      "title": "草花で彩る初夏のアフタヌーンティーと虫刺されケアスプレー作り",
+      "date_raw": "2026年6月28日",
+      "date_iso": "2026-06-28",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1955.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "あそびの 広場",
       "date_raw": "2026年6月29日",
       "date_iso": "2026-06-29",
@@ -2169,6 +2225,20 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "出産・育児に備える　ママの美ボディヨガ（6月）",
+      "date_raw": "2026年6月30日",
+      "date_iso": "2026-06-30",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "発達・育児相談",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1718.html",
+      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -2201,6 +2271,20 @@
       "body_preview": ""
     },
     {
+      "title": "産後ママの骨盤とココロのケアヨガ（7月）",
+      "date_raw": "2026年7月8日",
+      "date_iso": "2026-07-08",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "産前・産後",
+      "target_age": "0歳",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1949.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "★ベビーマッサージ＆スキンケア　7月",
       "date_raw": "2026年07月09日",
       "date_iso": "2026-07-09",
@@ -2212,6 +2296,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7995",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "親子でリトミック教室(7月)",
+      "date_raw": "2026年7月14日",
+      "date_iso": "2026-07-14",
+      "time_raw": "",
+      "location": "",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1965.html",
+      "source": "子育てナビ",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
