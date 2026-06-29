@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T22:56:01.650366",
-  "count": 212,
+  "updated_at": "2026-06-29T22:48:02.063338",
+  "count": 203,
   "events": [
     {
       "title": "★カレンダー作り",
@@ -251,20 +251,6 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1931.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "あつまれ！やんちゃ隊『親子で夏祭りを楽しもう！』",
-      "date_raw": "2026年07月02日",
-      "date_iso": "2026-07-02",
-      "time_raw": "11:00〜11:30",
-      "location": "熊本市こども文化会館",
-      "apply_info": "当日申込可",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8116",
-      "source": "こども文化会館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -871,48 +857,6 @@
       "body_preview": ""
     },
     {
-      "title": "ボールプールで遊ぼう",
-      "date_raw": "2026年07月09日",
-      "date_iso": "2026-07-09",
-      "time_raw": "11:30〜11:45",
-      "location": "熊本市こども文化会館",
-      "apply_info": "当日申込可",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8126",
-      "source": "こども文化会館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★ベビーマッサージ＆スキンケア　7月",
-      "date_raw": "2026年07月09日",
-      "date_iso": "2026-07-09",
-      "time_raw": "10:00〜11:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "親子ふれあい",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7995",
-      "source": "こども文化会館",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
-      "title": "★ゆうゆうタイム（みつばちルームの七夕）",
-      "date_raw": "2026年07月09日",
-      "date_iso": "2026-07-09",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8099",
-      "source": "こども文化会館",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "お話会",
       "date_raw": "2026年7月9日",
       "date_iso": "2026-07-09",
@@ -1162,20 +1106,6 @@
       "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
       "source": "池上子育て支援センター",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★みつばち　誕生会",
-      "date_raw": "2026年07月12日",
-      "date_iso": "2026-07-12",
-      "time_raw": "10:30〜10:50",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8114",
-      "source": "こども文化会館",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -1683,20 +1613,6 @@
       "body_preview": ""
     },
     {
-      "title": "★もりもり離乳食(後期完了編）",
-      "date_raw": "2026年07月17日",
-      "date_iso": "2026-07-17",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "食育・栄養",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8128",
-      "source": "こども文化会館",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "うちわ作り",
       "date_raw": "2026年7月17日",
       "date_iso": "2026-07-17",
@@ -1806,20 +1722,6 @@
       "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
       "source": "池上子育て支援センター",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★ハイハイ競走",
-      "date_raw": "2026年07月19日",
-      "date_iso": "2026-07-19",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "親子ふれあい",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8101",
-      "source": "こども文化会館",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -2383,20 +2285,6 @@
       "body_preview": ""
     },
     {
-      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
-      "date_raw": "2026年07月25日",
-      "date_iso": "2026-07-25",
-      "time_raw": "10:30〜10:50",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8056",
-      "source": "こども文化会館",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
       "title": "自由遊び",
       "date_raw": "2026年7月25日",
       "date_iso": "2026-07-25",
@@ -2926,20 +2814,6 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1920.html",
       "source": "子育てナビ",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★マリア先生のベビーからのEnjoy English【9/3～翌3/18】月2～4回",
-      "date_raw": "2026年09月03日",
-      "date_iso": "2026-09-03",
-      "time_raw": "09:15〜10:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7992",
-      "source": "こども文化会館",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
