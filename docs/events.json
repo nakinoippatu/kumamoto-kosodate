@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-04T22:54:13.052488",
-  "count": 173,
+  "updated_at": "2026-08-05T22:50:43.413928",
+  "count": 175,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -350,6 +350,20 @@
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★知っておきたい子どもの預け先あれこれ",
+      "date_raw": "8月6日（木 ）",
+      "date_iso": "2026-08-06",
+      "time_raw": "10:00〜11:00",
+      "location": "総合子育て支援センター",
+      "apply_info": "受付中 https://logoform.jp/form/TGU5/1640614",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -1274,6 +1288,20 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1946.html",
       "source": "子育てナビ",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★産後の心身ケア・ボールエクササイズ",
+      "date_raw": "8月19日（水 ）",
+      "date_iso": "2026-08-19",
+      "time_raw": "10:00〜11:30",
+      "location": "総合子育て支援センター",
+      "apply_info": "8月5日午前9時～下記のURLより申込み https://logoform.jp/form/TGU5/1677637",
+      "category": "産前・産後",
+      "target_age": "0歳",
+      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
+      "source": "総合子育て支援センター",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
