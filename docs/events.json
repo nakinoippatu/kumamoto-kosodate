@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-18T22:13:56.362123",
-  "count": 169,
+  "updated_at": "2026-08-19T22:16:25.631515",
+  "count": 168,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -1147,20 +1147,6 @@
       "target_age": "0歳",
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "8月19日（水曜日）～私らしく はたらく～はあもにい「働き方相談所」",
-      "date_raw": "2026年8月19日",
-      "date_iso": "2026-08-19",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "発達・育児相談",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1946.html",
-      "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
     },
