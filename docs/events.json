@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-19T22:16:25.631515",
+  "updated_at": "2026-08-20T22:18:04.315405",
   "count": 168,
   "events": [
     {
@@ -1263,20 +1263,6 @@
       "body_preview": ""
     },
     {
-      "title": "ボールプールで遊ぼう",
-      "date_raw": "2026年08月20日",
-      "date_iso": "2026-08-20",
-      "time_raw": "11:30〜11:45",
-      "location": "熊本市こども文化会館",
-      "apply_info": "当日申込可",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8145",
-      "source": "こども文化会館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "水あそび",
       "date_raw": "2026年8月20日",
       "date_iso": "2026-08-20",
@@ -2254,6 +2240,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8131",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "ボールプールで遊ぼう",
+      "date_raw": "2026年09月17日",
+      "date_iso": "2026-09-17",
+      "time_raw": "11:30〜11:45",
+      "location": "熊本市こども文化会館",
+      "apply_info": "当日申込可",
+      "category": "その他",
+      "target_age": "3〜5歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8157",
+      "source": "こども文化会館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
