@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-23T22:12:44.021872",
-  "count": 68,
+  "updated_at": "2026-08-24T22:17:42.015167",
+  "count": 70,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -59,16 +59,16 @@
       "body_preview": ""
     },
     {
-      "title": "8月28日（金曜日）『0歳からの体軸セラピーとリズム運動遊び』~五感をはぐくむ脳育遊び～",
-      "date_raw": "2026年8月24日",
+      "title": "休館日 31",
+      "date_raw": "2026-08-24",
       "date_iso": "2026-08-24",
-      "time_raw": "",
-      "location": "",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
       "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "0歳",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1740.html",
-      "source": "子育てナビ",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -759,6 +759,20 @@
       "body_preview": ""
     },
     {
+      "title": "敬老の日のプレゼントづくり",
+      "date_raw": "2026-09-10",
+      "date_iso": "2026-09-10",
+      "time_raw": "10:30〜11:30",
+      "location": "花園児童館",
+      "apply_info": "乳幼児とその保護者 15組（先着順）",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "★ベビーダンス教室【9/10～11/26】全6回",
       "date_raw": "2026年09月10日",
       "date_iso": "2026-09-10",
@@ -784,6 +798,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8130",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "赤ちゃんあつまれ！～ミニうんどうかい～",
+      "date_raw": "2026-09-11",
+      "date_iso": "2026-09-11",
+      "time_raw": "10:30〜11:30",
+      "location": "花園児童館",
+      "apply_info": "生後 11か月までのお子さんとその保護者 20組（先着順）",
+      "category": "健康・医療",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
