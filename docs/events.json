@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-01T23:42:41.733164",
-  "count": 173,
+  "updated_at": "2026-09-02T23:42:28.494788",
+  "count": 178,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -56,76 +56,6 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1920.html",
       "source": "子育てナビ",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "地震後の心と体のケア 詳細は裏面へ",
-      "date_raw": "2026年9月1日",
-      "date_iso": "2026-09-01",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市中央区本荘（本荘保育園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031482/index.html",
-      "source": "総合子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "デビューデー ＊敬老の日 プレゼント作り",
-      "date_raw": "2026年9月1日",
-      "date_iso": "2026-09-01",
-      "time_raw": "11:00〜11:30",
-      "location": "熊本市西区小島（小島保育園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364624/index.html",
-      "source": "小島子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "自由遊び",
-      "date_raw": "2026年9月1日",
-      "date_iso": "2026-09-01",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市西区池上（池上保育園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
-      "source": "池上子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "リキッドフロア あそび",
-      "date_raw": "2026年9月1日",
-      "date_iso": "2026-09-01",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市南区富合町（第一幼稚園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://youikuen.com/support/",
-      "source": "だいいち子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★「パタパタはばたく 鳥」制作",
-      "date_raw": "2026年9月1日",
-      "date_iso": "2026-09-01",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市北区硯川町（西里保育園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
-      "source": "西里子育て支援センター",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -325,6 +255,20 @@
       "body_preview": ""
     },
     {
+      "title": "★ 手形で壁面飾りづくり",
+      "date_raw": "2026-09-03",
+      "date_iso": "2026-09-03",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
       "title": "★育児講座 「離乳食について」",
       "date_raw": "2026年9月3日",
       "date_iso": "2026-09-03",
@@ -420,6 +364,20 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1881.html",
       "source": "子育てナビ",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★ 水鉄砲 であそぼう ※雨天時:室内遊び",
+      "date_raw": "2026-09-04",
+      "date_iso": "2026-09-04",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -689,6 +647,20 @@
       "body_preview": ""
     },
     {
+      "title": "★ 水鉄砲で あそぼう （持ち物は9 /4と同様） 10:3 0 ※雨天時:新 聞紙あそび ナイストラ",
+      "date_raw": "2026-09-09",
+      "date_iso": "2026-09-09",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
       "title": "乳幼児のための 栄養教室",
       "date_raw": "2026-09-09",
       "date_iso": "2026-09-09",
@@ -857,6 +829,20 @@
       "body_preview": ""
     },
     {
+      "title": "敬老の日のプレゼントづくり",
+      "date_raw": "2026-09-10",
+      "date_iso": "2026-09-10",
+      "time_raw": "10:30〜11:30",
+      "location": "花園児童館",
+      "apply_info": "乳幼児とその保護者 15組（先着順）",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "お話会 10:00～",
       "date_raw": "2026年9月10日",
       "date_iso": "2026-09-10",
@@ -924,6 +910,20 @@
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "赤ちゃんあつまれ！～ミニうんどうかい～",
+      "date_raw": "2026-09-11",
+      "date_iso": "2026-09-11",
+      "time_raw": "10:30〜11:30",
+      "location": "花園児童館",
+      "apply_info": "生後 11か月までのお子さんとその保護者 20組（先着順）",
+      "category": "健康・医療",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1375,6 +1375,20 @@
       "body_preview": ""
     },
     {
+      "title": "★ 音楽リズムあそび",
+      "date_raw": "2026-09-17",
+      "date_iso": "2026-09-17",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
       "title": "災害安全訓練",
       "date_raw": "2026年9月17日",
       "date_iso": "2026-09-17",
@@ -1484,6 +1498,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8128",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "スタンプあそび",
+      "date_raw": "2026-09-18",
+      "date_iso": "2026-09-18",
+      "time_raw": "10:30〜11:15",
+      "location": "花園児童館",
+      "apply_info": "乳幼児とその保護者 10組（先着順）",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1935,6 +1963,20 @@
       "body_preview": ""
     },
     {
+      "title": "★ 風船ボールであそぼう",
+      "date_raw": "2026-09-25",
+      "date_iso": "2026-09-25",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
       "title": "身体測定",
       "date_raw": "2026-09-25",
       "date_iso": "2026-09-25",
@@ -2072,6 +2114,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8056",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "スライムであそぼう",
+      "date_raw": "2026-09-26",
+      "date_iso": "2026-09-26",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -2254,6 +2310,20 @@
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "おはなし たんぽぽ",
+      "date_raw": "2026-09-30",
+      "date_iso": "2026-09-30",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
