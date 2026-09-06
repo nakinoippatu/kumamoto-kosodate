@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T23:29:04.869054",
+  "updated_at": "2026-09-06T23:23:00.324567",
   "count": 163,
   "events": [
     {
@@ -433,20 +433,6 @@
       "target_age": "指定なし",
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
-      "title": "★ハイハイ競走",
-      "date_raw": "2026年09月06日",
-      "date_iso": "2026-09-06",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "親子ふれあい",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8166",
-      "source": "こども文化会館",
       "needs_reservation": true,
       "body_preview": ""
     },
@@ -2254,6 +2240,20 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1919.html",
       "source": "子育てナビ",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★ハイハイ競走",
+      "date_raw": "2026年10月18日",
+      "date_iso": "2026-10-18",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "親子ふれあい",
+      "target_age": "0歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8179",
+      "source": "こども文化会館",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
