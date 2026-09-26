@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-25T00:10:34.060114",
-  "count": 173,
+  "updated_at": "2026-09-26T00:17:21.531598",
+  "count": 171,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -31,20 +31,6 @@
       "body_preview": ""
     },
     {
-      "title": "子育てand日常英会話（9月）",
-      "date_raw": "2026年9月4日",
-      "date_iso": "2026-09-04",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1881.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "Risa先生と親子でフォニックス英会話（9月）",
       "date_raw": "2026年9月14日",
       "date_iso": "2026-09-14",
@@ -68,20 +54,6 @@
       "category": "その他",
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1955.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "9月の保育者の子育て塾【0歳からの体軸セラピーとリズム運動遊び】",
-      "date_raw": "2026年9月25日",
-      "date_iso": "2026-09-25",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "0歳",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1946.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -2397,7 +2369,7 @@
       "body_preview": ""
     },
     {
-      "title": "小学生向け防災体験型イベントを開催します！～熊本地震10年関連事業～",
+      "title": "小学生向け防災体験型イベントを開催します！～令和8年熊本地震復興事業～",
       "date_raw": "2026年12月6日",
       "date_iso": "2026-12-06",
       "time_raw": "",
