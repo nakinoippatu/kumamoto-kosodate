@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-26T00:17:21.531598",
-  "count": 171,
+  "updated_at": "2026-09-27T00:04:29.095604",
+  "count": 170,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -56,34 +56,6 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1955.html",
       "source": "子育てナビ",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "SOMPOケア そんぽの家清水麻生田 子ども食堂  9月26日",
-      "date_raw": "2026年9月26日",
-      "date_iso": "2026-09-26",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1956.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
-      "date_raw": "2026年09月26日",
-      "date_iso": "2026-09-26",
-      "time_raw": "10:30〜10:50",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8056",
-      "source": "こども文化会館",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -784,6 +756,20 @@
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
+      "date_raw": "2026年10月10日",
+      "date_iso": "2026-10-10",
+      "time_raw": "10:30〜10:50",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "その他",
+      "target_age": "0歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8193",
+      "source": "こども文化会館",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
