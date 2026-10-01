@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-30T00:54:38.781758",
-  "count": 179,
+  "updated_at": "2026-10-01T00:56:45.069444",
+  "count": 195,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -27,6 +27,132 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1911.html",
       "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★ベビーマッサージ ① ②",
+      "date_raw": "2026-09-02",
+      "date_iso": "2026-09-02",
+      "time_raw": "10:00〜10:45",
+      "location": "幸田児童館",
+      "apply_info": "ベビーマッサージ（申込制） ① 10:00～10:45 ② 11:00～11:45",
+      "category": "産前・産後",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
+      "source": "幸田児童館",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "大型絵本を楽しもう （どなたでもどうぞ）",
+      "date_raw": "2026-09-04",
+      "date_iso": "2026-09-04",
+      "time_raw": "10:30〜11:00",
+      "location": "幸田児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
+      "source": "幸田児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "絵画・造形クラブ （小学生）",
+      "date_raw": "2026-09-05",
+      "date_iso": "2026-09-05",
+      "time_raw": "10:30〜11:00",
+      "location": "幸田児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
+      "source": "幸田児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "身体測定 （どなたでもどうぞ）",
+      "date_raw": "2026-09-10",
+      "date_iso": "2026-09-10",
+      "time_raw": "10:30〜11:00",
+      "location": "幸田児童館",
+      "apply_info": "",
+      "category": "健康・医療",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
+      "source": "幸田児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "ほのぼのタイム （申込制）",
+      "date_raw": "2026-09-11",
+      "date_iso": "2026-09-11",
+      "time_raw": "10:30〜11:00",
+      "location": "幸田児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
+      "source": "幸田児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "救急法＆消防車見学 （申込制）",
+      "date_raw": "2026-09-16",
+      "date_iso": "2026-09-16",
+      "time_raw": "10:30〜11:00",
+      "location": "幸田児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
+      "source": "幸田児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "おはなしひろば （どなたでもどうぞ）",
+      "date_raw": "2026-09-18",
+      "date_iso": "2026-09-18",
+      "time_raw": "10:30〜11:00",
+      "location": "幸田児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
+      "source": "幸田児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "硬筆クラブ （小学生）",
+      "date_raw": "2026-09-19",
+      "date_iso": "2026-09-19",
+      "time_raw": "10:30〜11:00",
+      "location": "幸田児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
+      "source": "幸田児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "ハイハイレース （申込制） ～0歳児対象～",
+      "date_raw": "2026-09-25",
+      "date_iso": "2026-09-25",
+      "time_raw": "10:30〜11:00",
+      "location": "幸田児童館",
+      "apply_info": "",
+      "category": "健康・医療",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
+      "source": "幸田児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -409,6 +535,20 @@
       "body_preview": ""
     },
     {
+      "title": "ベビーマッサージ",
+      "date_raw": "2026-10-07",
+      "date_iso": "2026-10-07",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★ベビーマッサージ",
+      "category": "産前・産後",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "お話会 10:00～",
       "date_raw": "2026年10月7日",
       "date_iso": "2026-10-07",
@@ -643,6 +783,20 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1919.html",
       "source": "子育てナビ",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "シャボン玉あそび",
+      "date_raw": "2026-10-09",
+      "date_iso": "2026-10-09",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★シャボン玉あそび",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -983,6 +1137,20 @@
       "body_preview": ""
     },
     {
+      "title": "サーキットあそび",
+      "date_raw": "2026-10-14",
+      "date_iso": "2026-10-14",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★サーキットあそび",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "幼児食教室",
       "date_raw": "2026年10月14日",
       "date_iso": "2026-10-14",
@@ -1176,6 +1344,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8128",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "ハロウィン製作",
+      "date_raw": "2026-10-16",
+      "date_iso": "2026-10-16",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★ハロウィン製作 （先着10組）",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1683,6 +1865,20 @@
       "body_preview": ""
     },
     {
+      "title": "身体測定",
+      "date_raw": "2026-10-23",
+      "date_iso": "2026-10-23",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★身体測定",
+      "category": "健康・医療",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "★ うんどうかいごっこ",
       "date_raw": "2026-10-23",
       "date_iso": "2026-10-23",
@@ -2047,6 +2243,20 @@
       "body_preview": ""
     },
     {
+      "title": "10月生まれの 誕生会",
+      "date_raw": "2026-10-28",
+      "date_iso": "2026-10-28",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★10月生まれの 誕生会",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "おはなし たんぽぽ",
       "date_raw": "2026-10-28",
       "date_iso": "2026-10-28",
@@ -2296,6 +2506,20 @@
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "ハロウィンあそび",
+      "date_raw": "2026-10-30",
+      "date_iso": "2026-10-30",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★ハロウィンあそび",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
