@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-10T01:25:12.493662",
-  "count": 136,
+  "updated_at": "2026-10-11T00:36:07.461588",
+  "count": 134,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -83,48 +83,6 @@
       "target_age": "0歳",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1939.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
-      "date_raw": "2026年10月10日",
-      "date_iso": "2026-10-10",
-      "time_raw": "10:30〜10:50",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8193",
-      "source": "こども文化会館",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
-      "title": "★マリア先生のチャレンジ！Enjoy English(ベビー)　10月10日",
-      "date_raw": "2026年10月10日",
-      "date_iso": "2026-10-10",
-      "time_raw": "09:15〜10:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7985",
-      "source": "こども文化会館",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
-      "title": "自由遊び",
-      "date_raw": "2026年10月10日",
-      "date_iso": "2026-10-10",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市西区池上（池上保育園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
-      "source": "池上子育て支援センター",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1876,6 +1834,20 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1899.html",
       "source": "子育てナビ",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
+      "date_raw": "2026年11月28日",
+      "date_iso": "2026-11-28",
+      "time_raw": "10:30〜10:50",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "その他",
+      "target_age": "0歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8201",
+      "source": "こども文化会館",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
