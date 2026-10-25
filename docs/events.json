@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24T23:53:00.205143",
-  "count": 71,
+  "updated_at": "2026-10-25T23:41:51.889365",
+  "count": 68,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -12,20 +12,6 @@
       "category": "その他",
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1788.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "第6回　こどもまんなか　子育て応援セミナー",
-      "date_raw": "2026年7月26日",
-      "date_iso": "2026-07-26",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1911.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -45,20 +31,6 @@
       "body_preview": ""
     },
     {
-      "title": "【無料】ハイハイ・カタカタレース",
-      "date_raw": "2026年10月24日",
-      "date_iso": "2026-10-24",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "0歳",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1934.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "小学生親子「レゴ＆マイクラプログラミング」出張教室 in 合志・嘉島",
       "date_raw": "2026年10月24日",
       "date_iso": "2026-10-24",
@@ -73,20 +45,6 @@
       "body_preview": ""
     },
     {
-      "title": "自由遊び",
-      "date_raw": "2026年10月24日",
-      "date_iso": "2026-10-24",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市西区池上（池上保育園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364626/index.html",
-      "source": "池上子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "プレパパママ教室",
       "date_raw": "2026年10月25日",
       "date_iso": "2026-10-25",
@@ -97,34 +55,6 @@
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1935.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "「親子ガールズスクール」開催！",
-      "date_raw": "2026年10月25日",
-      "date_iso": "2026-10-25",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1199.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "ボールプールで遊ぼう",
-      "date_raw": "2026年10月25日",
-      "date_iso": "2026-10-25",
-      "time_raw": "11:30〜11:45",
-      "location": "熊本市こども文化会館",
-      "apply_info": "当日申込可",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8175",
-      "source": "こども文化会館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -899,6 +829,20 @@
       "body_preview": ""
     },
     {
+      "title": "ボールプールで遊ぼう",
+      "date_raw": "2026年11月19日",
+      "date_iso": "2026-11-19",
+      "time_raw": "11:30〜11:45",
+      "location": "熊本市こども文化会館",
+      "apply_info": "当日申込可",
+      "category": "その他",
+      "target_age": "3〜5歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8215",
+      "source": "こども文化会館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "★ゆうゆうタイム（カタカタレース　はじめの一歩）",
       "date_raw": "2026年11月19日",
       "date_iso": "2026-11-19",
@@ -966,6 +910,20 @@
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1775.html",
       "source": "子育てナビ",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★マリア先生のチャレンジ！EnjoyEnglish(ベビー)　12月5日",
+      "date_raw": "2026年12月05日",
+      "date_iso": "2026-12-05",
+      "time_raw": "09:15〜10:00",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "その他",
+      "target_age": "0歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7987",
+      "source": "こども文化会館",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
