@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-01T00:33:55.924662",
-  "count": 163,
+  "updated_at": "2026-11-02T01:08:30.957716",
+  "count": 162,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -54,20 +54,6 @@
       "category": "父親・家族支援",
       "target_age": "指定なし",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1935.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "第5回 ゆるっと女子会 へそくり？会",
-      "date_raw": "2026年11月1日",
-      "date_iso": "2026-11-01",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1763.html",
       "source": "子育てナビ",
       "needs_reservation": false,
       "body_preview": ""
@@ -843,20 +829,6 @@
       "body_preview": ""
     },
     {
-      "title": "風船でうさぎをつくろう",
-      "date_raw": "2026-11-12",
-      "date_iso": "2026-11-12",
-      "time_raw": "10:30〜",
-      "location": "花園児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
-      "source": "花園児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "あつまれ! やんちゃ隊『収穫祭　おいしい秋みーつけた！』",
       "date_raw": "2026年11月12日",
       "date_iso": "2026-11-12",
@@ -867,6 +839,20 @@
       "target_age": "3〜5歳",
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8205",
       "source": "こども文化会館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "風船でうさぎをつくろう",
+      "date_raw": "2026-11-12",
+      "date_iso": "2026-11-12",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -941,6 +927,20 @@
       "body_preview": ""
     },
     {
+      "title": "★もりもり離乳食(前期）",
+      "date_raw": "2026年11月13日",
+      "date_iso": "2026-11-13",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市こども文化会館",
+      "apply_info": "事前申込",
+      "category": "食育・栄養",
+      "target_age": "3〜5歳",
+      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8217",
+      "source": "こども文化会館",
+      "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
       "title": "砂場あそび",
       "date_raw": "2026-11-13",
       "date_iso": "2026-11-13",
@@ -966,20 +966,6 @@
       "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
       "source": "花園児童館",
       "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★もりもり離乳食(前期）",
-      "date_raw": "2026年11月13日",
-      "date_iso": "2026-11-13",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市こども文化会館",
-      "apply_info": "事前申込",
-      "category": "食育・栄養",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8217",
-      "source": "こども文化会館",
-      "needs_reservation": true,
       "body_preview": ""
     },
     {
@@ -1025,20 +1011,6 @@
       "body_preview": ""
     },
     {
-      "title": "逆上がり教室 ① 1 ・ 2年生 ② 3～6年生",
-      "date_raw": "2026-11-14",
-      "date_iso": "2026-11-14",
-      "time_raw": "10:30〜",
-      "location": "花園児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
-      "source": "花園児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "★マリア先生のチャレンジEnjoy English(ベビー)　11月14日",
       "date_raw": "2026年11月14日",
       "date_iso": "2026-11-14",
@@ -1050,6 +1022,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=7986",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "逆上がり教室 ① 1 ・ 2年生 ② 3～6年生",
+      "date_raw": "2026-11-14",
+      "date_iso": "2026-11-14",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1417,20 +1403,6 @@
       "body_preview": ""
     },
     {
-      "title": "つみ木であそぼう",
-      "date_raw": "2026-11-19",
-      "date_iso": "2026-11-19",
-      "time_raw": "10:30〜",
-      "location": "花園児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
-      "source": "花園児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "ボールプールで遊ぼう",
       "date_raw": "2026年11月19日",
       "date_iso": "2026-11-19",
@@ -1456,6 +1428,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8200",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "つみ木であそぼう",
+      "date_raw": "2026-11-19",
+      "date_iso": "2026-11-19",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -2117,20 +2103,6 @@
       "body_preview": ""
     },
     {
-      "title": "クリスマスリースづくり",
-      "date_raw": "2026-11-28",
-      "date_iso": "2026-11-28",
-      "time_raw": "10:30〜",
-      "location": "花園児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
-      "source": "花園児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "★ハーフバースデー　６か月を迎える赤ちゃんをお祝いします",
       "date_raw": "2026年11月28日",
       "date_iso": "2026-11-28",
@@ -2142,6 +2114,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8201",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "クリスマスリースづくり",
+      "date_raw": "2026-11-28",
+      "date_iso": "2026-11-28",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
