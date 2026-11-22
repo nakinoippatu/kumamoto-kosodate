@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-21T02:56:00.881011",
-  "count": 72,
+  "updated_at": "2026-11-22T01:48:29.955648",
+  "count": 70,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -69,34 +69,6 @@
       "target_age": "0歳",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1948.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "赤ちゃん競争〈11月／土曜日開催〉",
-      "date_raw": "2026年11月21日",
-      "date_iso": "2026-11-21",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "0歳",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1946.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "自由遊び",
-      "date_raw": "2026年11月21日",
-      "date_iso": "2026-11-21",
-      "time_raw": "10:00〜11:30",
-      "location": "熊本市北区硯川町（西里保育園内）",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
-      "source": "西里子育て支援センター",
       "needs_reservation": false,
       "body_preview": ""
     },
