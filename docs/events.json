@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T04:42:53.513270",
-  "count": 139,
+  "updated_at": "2026-11-26T03:52:35.687019",
+  "count": 134,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -45,20 +45,6 @@
       "body_preview": ""
     },
     {
-      "title": "エプロンシアター （どなたでもどうぞ）",
-      "date_raw": "2026-11-06",
-      "date_iso": "2026-11-06",
-      "time_raw": "10:30〜11:00",
-      "location": "幸田児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
-      "source": "幸田児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "HAPPY PARK in 城南町 〜「あそぶ・ほっとする・つながる」親子のための居場所〜",
       "date_raw": "2026年11月8日",
       "date_iso": "2026-11-08",
@@ -73,20 +59,6 @@
       "body_preview": ""
     },
     {
-      "title": "ボールひろってポン！ （申込制）",
-      "date_raw": "2026-11-13",
-      "date_iso": "2026-11-13",
-      "time_raw": "10:30〜11:00",
-      "location": "幸田児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
-      "source": "幸田児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "プレママ&新米ママとベビーの憩いの広場",
       "date_raw": "2026年11月18日",
       "date_iso": "2026-11-18",
@@ -97,34 +69,6 @@
       "target_age": "0歳",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1948.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "身体測定",
-      "date_raw": "2026-11-19",
-      "date_iso": "2026-11-19",
-      "time_raw": "10:30〜11:00",
-      "location": "幸田児童館",
-      "apply_info": "身体測定 10:30～11:00 （どなたでもどうぞ）",
-      "category": "健康・医療",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
-      "source": "幸田児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "楽器あそび （申込制）",
-      "date_raw": "2026-11-20",
-      "date_iso": "2026-11-20",
-      "time_raw": "10:30〜11:00",
-      "location": "幸田児童館",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
-      "source": "幸田児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -153,20 +97,6 @@
       "target_age": "小学生以上",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1931.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "ベビーダンス （申込制）",
-      "date_raw": "2026-11-25",
-      "date_iso": "2026-11-25",
-      "time_raw": "10:30〜11:00",
-      "location": "幸田児童館",
-      "apply_info": "",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031630/index.html",
-      "source": "幸田児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
