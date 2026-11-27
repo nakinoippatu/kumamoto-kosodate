@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-26T03:52:35.687019",
-  "count": 134,
+  "updated_at": "2026-11-27T03:53:58.499278",
+  "count": 140,
   "events": [
     {
       "title": "令和8年度未就園児クラスぽっぽ組",
@@ -97,34 +97,6 @@
       "target_age": "小学生以上",
       "url": "https://www.kumamoto-kekkon-kosodate.jp/page1931.html",
       "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "ひらいて、はなそ。",
-      "date_raw": "2026年11月26日",
-      "date_iso": "2026-11-26",
-      "time_raw": "",
-      "location": "",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.kumamoto-kekkon-kosodate.jp/page1919.html",
-      "source": "子育てナビ",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "あつまれ! やんちゃ隊『収穫祭　おいしい秋みーつけた！』",
-      "date_raw": "2026年11月26日",
-      "date_iso": "2026-11-26",
-      "time_raw": "11:00〜11:30",
-      "location": "熊本市こども文化会館",
-      "apply_info": "当日申込可",
-      "category": "その他",
-      "target_age": "3〜5歳",
-      "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8206",
-      "source": "こども文化会館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -283,6 +255,20 @@
       "body_preview": ""
     },
     {
+      "title": "シャボン玉 あそび",
+      "date_raw": "2026-12-02",
+      "date_iso": "2026-12-02",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★シャボン玉 あそび",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "お話会 10:00～",
       "date_raw": "2026年12月2日",
       "date_iso": "2026-12-02",
@@ -367,20 +353,6 @@
       "body_preview": ""
     },
     {
-      "title": "シャボン玉 あそび",
-      "date_raw": "2026-12-02",
-      "date_iso": "2026-12-02",
-      "time_raw": "11:00〜",
-      "location": "西部児童館",
-      "apply_info": "★シャボン玉 あそび",
-      "category": "親子ふれあい",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
-      "source": "西部児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "あつまれ！ やんちゃ隊『みんなあつまれ～　冬のおたのしみ会！』",
       "date_raw": "2026年12月03日",
       "date_iso": "2026-12-03",
@@ -391,6 +363,20 @@
       "target_age": "3〜5歳",
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8233",
       "source": "こども文化会館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "手形で壁面飾りづくり",
+      "date_raw": "2026-12-03",
+      "date_iso": "2026-12-03",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -434,6 +420,20 @@
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "赤ちゃんあつまれ！～足形アート～",
+      "date_raw": "2026-12-04",
+      "date_iso": "2026-12-04",
+      "time_raw": "10:30〜11:15",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "健康・医療",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -689,6 +689,34 @@
       "body_preview": ""
     },
     {
+      "title": "ベビー マッサージ",
+      "date_raw": "2026-12-09",
+      "date_iso": "2026-12-09",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★ベビー マッサージ",
+      "category": "産前・産後",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "親子ビクス",
+      "date_raw": "2026-12-09",
+      "date_iso": "2026-12-09",
+      "time_raw": "10:30〜11:30",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "えほんとわらべうた 10:30～",
       "date_raw": "2026年12月9日",
       "date_iso": "2026-12-09",
@@ -731,20 +759,6 @@
       "body_preview": ""
     },
     {
-      "title": "ベビー マッサージ",
-      "date_raw": "2026-12-09",
-      "date_iso": "2026-12-09",
-      "time_raw": "11:00〜",
-      "location": "西部児童館",
-      "apply_info": "★ベビー マッサージ",
-      "category": "産前・産後",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
-      "source": "西部児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "★ベビーダンス体験教室",
       "date_raw": "2026年12月10日",
       "date_iso": "2026-12-10",
@@ -770,6 +784,20 @@
       "url": "https://www.kodomobunka.jp/event/event.cgi?mode=view&eventyid=8200",
       "source": "こども文化会館",
       "needs_reservation": true,
+      "body_preview": ""
+    },
+    {
+      "title": "自由あそび ※～児童館では遊べません",
+      "date_raw": "2026-12-10",
+      "date_iso": "2026-12-10",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -857,6 +885,20 @@
       "body_preview": ""
     },
     {
+      "title": "ハッピークリスマス会 ※～児童館では遊べません",
+      "date_raw": "2026-12-11",
+      "date_iso": "2026-12-11",
+      "time_raw": "09:00〜13:00",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "やすらぎタイム プレママパパ教室",
       "date_raw": "2026年12月11日",
       "date_iso": "2026-12-11",
@@ -881,6 +923,20 @@
       "target_age": "0歳",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "クリスマスのお菓子づくり",
+      "date_raw": "2026-12-12",
+      "date_iso": "2026-12-12",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -997,6 +1053,20 @@
       "body_preview": ""
     },
     {
+      "title": "お正月 飾り作り",
+      "date_raw": "2026-12-16",
+      "date_iso": "2026-12-16",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★お正月 飾り作り",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "＊赤ちゃんふれあ い遊び",
       "date_raw": "2026年12月16日",
       "date_iso": "2026-12-16",
@@ -1050,20 +1120,6 @@
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
       "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
-      "title": "お正月 飾り作り",
-      "date_raw": "2026-12-16",
-      "date_iso": "2026-12-16",
-      "time_raw": "11:00〜",
-      "location": "西部児童館",
-      "apply_info": "★お正月 飾り作り",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
-      "source": "西部児童館",
-      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1165,6 +1221,20 @@
       "body_preview": ""
     },
     {
+      "title": "12月生まれ の誕生会",
+      "date_raw": "2026-12-18",
+      "date_iso": "2026-12-18",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★12月生まれ の誕生会",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "プレパパママ 新米パパママ講座 詳細はHPへ",
       "date_raw": "2026年12月18日",
       "date_iso": "2026-12-18",
@@ -1246,20 +1316,6 @@
       "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
       "source": "西里子育て支援センター",
       "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
-      "title": "12月生まれ の誕生会",
-      "date_raw": "2026-12-18",
-      "date_iso": "2026-12-18",
-      "time_raw": "11:00〜",
-      "location": "西部児童館",
-      "apply_info": "★12月生まれ の誕生会",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
-      "source": "西部児童館",
-      "needs_reservation": false,
       "body_preview": ""
     },
     {
@@ -1375,6 +1431,34 @@
       "body_preview": ""
     },
     {
+      "title": "身体測定",
+      "date_raw": "2026-12-23",
+      "date_iso": "2026-12-23",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "★身体測定 （11時半まで）",
+      "category": "健康・医療",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "おはなし たんぽぽ",
+      "date_raw": "2026-12-23",
+      "date_iso": "2026-12-23",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "親子ふれあい",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "お話会 10:00～ 30",
       "date_raw": "2026年12月23日",
       "date_iso": "2026-12-23",
@@ -1441,20 +1525,6 @@
       "target_age": "指定なし",
       "url": "https://ogihoiku.com/page-76/",
       "source": "城南子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "身体測定",
-      "date_raw": "2026-12-23",
-      "date_iso": "2026-12-23",
-      "time_raw": "11:00〜",
-      "location": "西部児童館",
-      "apply_info": "★身体測定 （11時半まで）",
-      "category": "健康・医療",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
-      "source": "西部児童館",
       "needs_reservation": false,
       "body_preview": ""
     },
@@ -1557,6 +1627,34 @@
       "body_preview": ""
     },
     {
+      "title": "年末年始",
+      "date_raw": "2026-12-29",
+      "date_iso": "2026-12-29",
+      "time_raw": "11:00〜",
+      "location": "西部児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
+      "source": "西部児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "1/4（月）までお休みです",
+      "date_raw": "2026-12-29",
+      "date_iso": "2026-12-29",
+      "time_raw": "10:30〜",
+      "location": "花園児童館",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00319844/index.html",
+      "source": "花園児童館",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
       "title": "年末年始は12/29～1/3までお休みです。 みなさまよいお年をお迎えください。",
       "date_raw": "2026年12月29日",
       "date_iso": "2026-12-29",
@@ -1599,20 +1697,6 @@
       "body_preview": ""
     },
     {
-      "title": "年末年始",
-      "date_raw": "2026-12-29",
-      "date_iso": "2026-12-29",
-      "time_raw": "11:00〜",
-      "location": "西部児童館",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
-      "source": "西部児童館",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
       "title": "おやすみ",
       "date_raw": "2026年12月30日",
       "date_iso": "2026-12-30",
@@ -1630,34 +1714,6 @@
       "title": "★年末年始 お休み",
       "date_raw": "2026年12月30日",
       "date_iso": "2026-12-30",
-      "time_raw": "10:30〜11:00",
-      "location": "熊本市北区硯川町（西里保育園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
-      "source": "西里子育て支援センター",
-      "needs_reservation": true,
-      "body_preview": ""
-    },
-    {
-      "title": "おやすみ",
-      "date_raw": "2026年12月31日",
-      "date_iso": "2026-12-31",
-      "time_raw": "10:00〜",
-      "location": "熊本市南区合志（力合さくら子ども園内）",
-      "apply_info": "",
-      "category": "その他",
-      "target_age": "指定なし",
-      "url": "https://www.rikigo-sakura.jp/childcare/",
-      "source": "さくらっこ子育て支援センター",
-      "needs_reservation": false,
-      "body_preview": ""
-    },
-    {
-      "title": "★年末年始 お休み",
-      "date_raw": "2026年12月31日",
-      "date_iso": "2026-12-31",
       "time_raw": "10:30〜11:00",
       "location": "熊本市北区硯川町（西里保育園内）",
       "apply_info": "",
@@ -1680,6 +1736,34 @@
       "url": "https://www.city.kumamoto.jp/kiji0031631/index.html",
       "source": "西部児童館",
       "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "おやすみ",
+      "date_raw": "2026年12月31日",
+      "date_iso": "2026-12-31",
+      "time_raw": "10:00〜",
+      "location": "熊本市南区合志（力合さくら子ども園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.rikigo-sakura.jp/childcare/",
+      "source": "さくらっこ子育て支援センター",
+      "needs_reservation": false,
+      "body_preview": ""
+    },
+    {
+      "title": "★年末年始 お休み",
+      "date_raw": "2026年12月31日",
+      "date_iso": "2026-12-31",
+      "time_raw": "10:30〜11:00",
+      "location": "熊本市北区硯川町（西里保育園内）",
+      "apply_info": "",
+      "category": "その他",
+      "target_age": "指定なし",
+      "url": "https://www.city.kumamoto.jp/kiji00364618/index.html",
+      "source": "西里子育て支援センター",
+      "needs_reservation": true,
       "body_preview": ""
     },
     {
